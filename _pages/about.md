@@ -1,8 +1,7 @@
 ---
 title: "About me"
 permalink: /about/
-header: 
-	<img src="Tulips.jpg" />
+
 
 ---
 
