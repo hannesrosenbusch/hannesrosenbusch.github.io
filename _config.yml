@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : ""
+title                    : "Hannes Rosenbusch"
 title_separator          : "-"
 name                     : "Hannes Rosenbusch"
 description              : "Research, CV, and Contact"
@@ -103,9 +103,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Hannes Rosenbusch"
+  name             : ""
   avatar           : "/images/corridor pic hannes.jpg"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I love to learn from others, develop ideas, and share my insights"
+  bio              : "I love to learn, develop ideas, and share my insights"
   location         : "The Netherlands"
   email            :
   links:
