@@ -103,7 +103,7 @@ analytics:
 
 # Site Author
 author:
-  name             : ""
+  name             : "Hannes Rosenbusch"
   avatar           : "/images/corridor pic hannes.jpg"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I love to learn, develop ideas, and share my insights"
   location         : "The Netherlands"
