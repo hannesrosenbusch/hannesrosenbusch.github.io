@@ -2,7 +2,7 @@
 title: "About me"
 permalink: /about/
 header: 
-	image: <img src= "Tulips.jpg", width="50" height="50" />
+	image: "multilevel graphs.PNG"
 
 ---
 
