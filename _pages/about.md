@@ -2,7 +2,7 @@
 title: "About me"
 permalink: /about/
 header:
-  image: "corridor pic hannes.jpg"
+  image: "multilevel models.jpg"
 
 ---
 
