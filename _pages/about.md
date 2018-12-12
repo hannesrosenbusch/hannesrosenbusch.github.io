@@ -1,6 +1,8 @@
 ---
 title: "About"
 permalink: /about/
+header:
+	image: "/images/corridor pic hannes.jpg"
 
 ---
 
