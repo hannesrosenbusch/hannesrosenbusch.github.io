@@ -1,7 +1,7 @@
 ---
 title: "Research application: NY Times sentiment analyzer"
 date: 2016-10-01
-tags: [text mining, applications, sentiment analysis]
+tags: [text mining, applications]
 excerpt: "A simple and useful application I built for Harvard's CS50 course"
 ---
 
