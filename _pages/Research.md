@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /research/
-title: "Research"
+title: "Research by tags"
 author_profile: true
 header:
   image: "assets/research.jpg"
