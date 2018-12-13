@@ -5,7 +5,7 @@ permalink: /about/
 
 I am a PhD student who is interested in applying computer science methods to psychological research.
 
-New ways to acquire, process, and analyze data are always fascinating to me and I have a lot of fun thinking up new ways to apply them.
+New ways to acquire, process, and analyze data are always fascinating to me and I have a lot of fun applying them in new contexts.
 
 I work at a social psychology department, but I regularly collaborate with researchers from other disciplines.
 
