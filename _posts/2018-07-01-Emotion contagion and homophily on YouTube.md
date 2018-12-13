@@ -11,4 +11,4 @@ We found that multiple mechanism independently contribute to such emotion transf
 
 <img src="{{site.baseurl}}/assets/multilevel plot.png">
 
-[Open access publication in SPPS](https://osf.io/sxudt)
+[Open access publication in SPPS](https://osf.io/sxudt){:target="_blank"}
