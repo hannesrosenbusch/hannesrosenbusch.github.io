@@ -9,7 +9,7 @@ Even though this project was a while ago, it marks my first encounter with compu
 
 For the project, I built a simple, python/SQL based application that lets users input a query term, and that outputs the NY times sentiments associated with this query.
 
-{% include youtubePlayer.html id=https://www.youtube.com/watch?v=RQ2ghtso9Sk %}
+{% include youtubePlayer.html id=RQ2ghtso9Sk %}
 
 These numerical values can be statistically compared to equivalent numbers from other newspaper sources, thereby tapping into biased reporting etc.
 
