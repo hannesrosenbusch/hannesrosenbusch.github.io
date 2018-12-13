@@ -1,6 +1,6 @@
 ---
 title: "Class project: NY Times API"
-date: 2013-01-01
+date: 2016-10-01
 tags: [text mining, applications, sentiment analysis]
 excerpt: "A simple and useful application I built for Harvard's CS50 course"
 ---
@@ -15,5 +15,5 @@ These numerical values can be statistically compared to equivalent numbers from 
 
 An example analysis using the application shows, for instance, that the NY times harbors more negative sentiments against Republicans than Democarats.
 
-We had to do a video documenting our project. It was a pass/fail video that is unlikely to be watched, so it turned out slightly silly (timeless music etc. You can find the video here [link](https://youtu.be/RQ2ghtso9Sk).
+We had to do a video documenting our project. It was a pass/fail video that is unlikely to be watched, so it turned out slightly silly (timeless music etc). You can find the video [here](https://youtu.be/RQ2ghtso9Sk).
 
