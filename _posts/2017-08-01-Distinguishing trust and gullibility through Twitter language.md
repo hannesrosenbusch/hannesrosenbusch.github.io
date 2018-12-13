@@ -13,4 +13,4 @@ First, we found that trust and gullibility correlated only weakly (r = .2) with 
 
 For extended results, visualizations, and discussion, see our conference poster below.
 
-<img src="{{site.baseurl}}/assets/Tiber poster.pdf">
+<img src="{{site.baseurl}}/assets/Tiber poster.jpg">
