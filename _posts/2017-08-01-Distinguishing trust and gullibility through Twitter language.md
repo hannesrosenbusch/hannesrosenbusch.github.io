@@ -5,4 +5,7 @@ tags: [text mining]
 excerpt: "A project in which we compare language profiles for two closely related personality constructs: Trust and gullibility"
 ---
 
-In this project, we combine survey research with text mining on Twitter.
+In this project, we combine survey research with text mining on Twitter. In brief, we administered psychological tests to participants measuring their dispositional trust and gullibility. Subsequently, we scraped tweets from the participants' Twitter profiles and correlated their language paaterns with their trust and gullibility scores.
+
+Results
+First, we found that trust and gullibility correlated only weakly (r = .2) with each other. Further, we found that the two personality traits were characterized by different and sometimes even opposing laguage patterns (see Figure below).
