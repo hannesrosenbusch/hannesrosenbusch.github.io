@@ -5,9 +5,7 @@ tags: [text mining, applications, sentiment analysis]
 excerpt: "A simple and useful application I built for Harvard's CS50 course"
 ---
 
-# headingg
-
-Even though this project was a while ago, it marks my first encounter with computational social science, and so I still like it. The project showed me how fun computational methods are, and ultimately led me to reject my PhD grant and seek a position involving computational methods.
+Even though this project was a while ago, it marks my first encounter with computational social science, and therefore I still like it. The project showed me how fun computational methods are, and ultimately led me to reject my PhD grant and seek a position involving computational methods.
 
 For the project, I built a simple, python/SQL based application that lets users input a query term, and that outputs the NY times sentiments associated with this query.
 
