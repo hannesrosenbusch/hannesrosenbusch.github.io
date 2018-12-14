@@ -1,7 +1,7 @@
 ---
 title: "NWO Research Talent Grant"
 date: 2017-05-01
-tags: [lab studies]
+tags: [Psychological Theory, Lab Studies]
 excerpt: "Prof. Spears, Dr. Tausch, and I received this grant for 4 years of PhD research on radical group behavior"
 ---
 

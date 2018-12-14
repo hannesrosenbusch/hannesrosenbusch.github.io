@@ -1,7 +1,7 @@
 ---
 title: "Master thesis: Explaining radical group behavior"
 date: 2017-01-01
-tags: [political psychology, lab studies]
+tags: [Psychological Theory, Lab Studies]
 excerpt: "My master thesis involving experimental research on radical collective behavior of political groups"
 ---
 
