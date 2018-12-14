@@ -3,7 +3,7 @@ title: "About me"
 permalink: /about/
 ---
 
-I am a PhD student who is interested in applying computer science methods to psychological research.
+I am a PhD student at Tilburg University, who is interested in applying computer science methods to psychological research.
 
 New ways to acquire, process, and analyze data are always fascinating to me and I have a lot of fun applying them in new contexts.
 
