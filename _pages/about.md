@@ -15,4 +15,4 @@ So if you have an idea for a cool, interdisciplinary project...
 
 Outside of the office, I like painting, watching stand-up, and riding motorcycles. Might not matter, but now you know it.
 
-[My CV]({{ site.url }}/assets/cv.pdf)
+[My CV]({{ site.url }}/assets/cv hr.pdf)
