@@ -1,7 +1,7 @@
 ---
 title: "The Semantic Scale Network"
 date: 2018-10-01
-tags: [applications, machine learning]
+tags: [Applications, Machine Learning]
 excerpt: "An R-based (shiny) application utilizing latent semantic analysis to combat scale proliferation in psychological research"
 ---
 

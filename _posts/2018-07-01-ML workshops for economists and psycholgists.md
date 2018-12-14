@@ -1,7 +1,7 @@
 ---
 title: "ML workshops for economists and psychologists"
 date: 2018-07-01
-tags: [machine learning]
+tags: [Machine Learning]
 excerpt: "2 workshops I gave on machine learning. Python for economists; R for psychologists."
 ---
 

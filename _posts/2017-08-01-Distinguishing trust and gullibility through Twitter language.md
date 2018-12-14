@@ -1,7 +1,7 @@
 ---
 title: "Distinguishing trust and gullibility through Twitter language"
 date: 2017-08-01
-tags: [text mining, lab studies]
+tags: [Text Mining, Lab Studies, Psychological Theory]
 excerpt: "A project in which we compare language profiles for two closely related personality constructs: Trust and gullibility"
 ---
 
