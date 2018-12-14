@@ -4,7 +4,7 @@ permalink: /research/
 title: "Research by tags"
 author_profile: true
 header:
-  image: "/assets/research.jpg"
+  image: "/assets/research pic.jpg"
 ---
 
 {% include group-by-array collection=site.posts field="tags" %}
