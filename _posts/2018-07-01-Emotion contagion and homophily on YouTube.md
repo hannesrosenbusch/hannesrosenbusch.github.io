@@ -14,6 +14,7 @@ We found that multiple mechanism independently contribute to such emotion transf
 [Open access publication in SPPS](https://osf.io/sxudt){:target="_blank"}
 
 Press reactions:
+
 [Psychology Today](https://www.psychologytoday.com/intl/blog/the-athletes-way/201812/emotional-contagions-can-spread-wildfire-youtube){:target="_blank"}
 
 [Marketwatch](https://www.marketwatch.com/story/how-to-use-youtube-and-social-media-to-get-happier-2018-12-27){:target="_blank"}
