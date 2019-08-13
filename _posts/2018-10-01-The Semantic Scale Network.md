@@ -11,6 +11,8 @@ Rather than relying on correlating participant answers, this method quantifies t
 
 The result is an online application that researchers can use to prevent the publication of redundant scales, which is a big problem in psychology.
 
+[Open access publication in Psychological Methods](https://osf.io/y87pe/){:target="_blank"}
+
 The application can be accessed [here](https://rosenbusch.shinyapps.io/semantic_net/){:target="_blank"}.
 
 A glimpse of the Semantic Scale Network is depicted below.
