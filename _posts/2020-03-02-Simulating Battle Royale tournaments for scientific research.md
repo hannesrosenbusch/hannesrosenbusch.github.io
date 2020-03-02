@@ -1,0 +1,19 @@
+---
+title: "Netlogo application: Chuck Norris vs the world"
+date: 2020-3-02
+tags: [Machine Learning, Applications]
+excerpt: "We used agent-based models to quantify the ranking reliability of Battle-Royale-style tournaments"
+---
+
+Battle Royale is an exciting tournament mode. Everybody enters the arena. Only the winner leaves. It is very dramatic, chaotic, and easily as popular today as it was in ancient Rome (cf., Fortnite, Gladiator fights).
+
+In sports science, researchers want to know how they can design tournaments, to maximize the chance that the most skilled competitor wins. For instance, they could plan all possible two-player combinations, actually hold each game, and crown the competitor with the best aggregated outcomes the winner (round-robin or "league" format). Alternatively, the could have K.O. rounds, where losers are eliminated from further competition.
+
+We used computer simulations to quantify whether Battle Royale tournaments are suitable to find the most skilled competitor.
+These sort of agent-based simulations were set up through Netlogo code (see picture for a snapshot of 8 fighters in a round, shrinking arena). 
+<img src="{{site.baseurl}}/assets/arena.png">
+
+Results indicate that, in line with public belief, the Battle Royale mode introduces much randomness to player rankings, game features can make small improvements to the ranking reliability, and tournament features (averaging outcomes of multiple Battle Royale "rounds") can make large improvements to ranking reliability.
+
+
+If you are interested in the details, please read the postprint here: [Open access publication in Simulation & Gaming](https://osf.io/enz6g/){:target="_blank"}
