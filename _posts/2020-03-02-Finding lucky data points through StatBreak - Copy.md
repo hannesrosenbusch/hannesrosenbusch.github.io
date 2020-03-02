@@ -2,7 +2,7 @@
 title: "R package: StatBreak"
 date: 2020-3-02
 tags: [Machine Learning, Applications]
-excerpt: "An R package allowing users to find the luckiest, conclusion-relevat data points in their data"
+excerpt: "An R package allowing users to find the luckiest, conclusion-relevant data points in their data"
 ---
 
 This project is a reaction to the burdensome and neglected practice of searching datsets for influential and maybe even crucial data points. Practitioners and researchers might overlook that a one or two observations shift their data-based conclusions. On the other hand, people who do report excluding outliers are often seen as suspicious, because they might have done so to actively tweak their results. Even when trying to exclude outliers in good faith, people are faced with a huge mass of alternative procedures, unfamiliar metrics, and arbitrary decision rules. So all in all, outlier analyses are currently very awkward in the social sciences.
