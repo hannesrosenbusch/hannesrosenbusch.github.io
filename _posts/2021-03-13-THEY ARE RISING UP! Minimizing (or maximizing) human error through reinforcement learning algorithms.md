@@ -5,7 +5,7 @@ tags: [Machine Learning]
 excerpt: "AI systems are smart enough to beat us in games like chess and Go. Why not use it to detect human weaknesses elsewhere?"
 ---
 
-Reinforcement learning algorithms are fascinating. They are smarter than models from the more popular branches of machine learning, because they do not necessarily need humans to input training data. They learn by themselves (or at least more autonomously). In order to do so, they have to be able to interact with their environment in a trial-and error fashion. Take the famous AlphaGo Zero model (Silver et al., 2017). Noone told it what good moves in the game are. Noone even showed it data from past games. It has become better than any human will ever be, simply by playing, losing, and learning. 
+Reinforcement learning algorithms are fascinating. They are smarter than models from the more popular branches of machine learning, because they do not necessarily need humans to input training data. They learn by themselves (or at least more autonomously). In order to do so, they have to be able to interact with their environment in a trial-and-error fashion. Take the famous AlphaGo Zero model (Silver et al., 2017). Noone told it what good moves in the game are. Noone even showed it data from past games. It has become better than any human will ever be, simply by playing, losing, and learning. 
 
 Human errors in a board game are not usually tied to extreme risks or dangers. However, in industrial, traffic, or medical settings, human inattention or incompetence can come with a high price. I think reinforcement learning models can contribute to the safety in such settings by uncovering human weakspots. Just like it does in board games. 
 
