@@ -6,23 +6,25 @@ excerpt: "AI systems are smart enough to beat us in games like chess and Go. Why
 ---
 
 Reinforcement learning algorithms are fascinating. They are smarter than models from the more popular branches of machine learning, because they do not necessarily need humans to input training data. They learn by themselves (or at least more autonomously). In order to do so, they have to be able to interact with their environment in a trial-and error fashion. Take the famous AlphaGo Zero model (Silver et al., 2017). Noone told it what good moves in the game are. Noone even showed it data from past games. It has become better than any human will ever be, simply by playing, losing, and learning. 
+
 Human errors in a board game are not usually tied to extreme risks or dangers. However, in industrial, traffic, or medical settings, human inattention or incompetence can come with a high price. I think reinforcement learning models can contribute to the safety in such settings by uncovering human weakspots. Just like it does in board games. 
+
 I started building the code blocks necessary for building such a system. Because I was too lazy to keep interacting with the model myself until it learned my weakspots, I also wrote a "human simulator" based on fairly naive psychological assumptions.
-The task of this "human" is to receive and process information from an industrial system and to decide correctly, and as fast as possible, whether an alarm should be triggered. This seemed like a pretty generalizable scenario.
+The task of this "human" is to receive and process information from an industrial system and to decide correctly, and as quickly as possible, whether an alarm should be triggered. This seemed like a pretty generalizable scenario.
 
-The human struggles when they receive different types of information in in quick order, when the information is seemingly contradictory, or when there was a relaxing pace in the previous interactions. After observing the human for a while, the reinforcement learning model detects which scenarios elicit the poorest reaction times or even wrong reactions.
+The human struggles when they receive different types of information in quick succession, when the information is seemingly contradictory, or when there was a relaxing pace in the previous interactions. After probing and observing the human for a while, the reinforcement learning model detects which scenarios elicit the poorest reaction times or even wrong reactions.
 
-You can see in the graph below that the model (i.e., the "agent") knows which inputs are easiest for the human (darker colors) and which inputs appear the most challenging (brighter colors). The details of this tabular scenario representation are not so important, but can be understood from the comments in the Python code.
+You can see in the graph below that the model (i.e., the "agent") knows which inputs are easiest for the human (darker colors) and which inputs appear the most challenging (brighter colors). The details of this tabular scenario representation are not so important, but can be understood from the full tutorial (link below).
 
 <img src="{{site.baseurl}}/assets/heatmap.png">
 
-In the plot below, we can also see that, over time, the model is increasingly able to exploit the human's weakpoints and trigger higher reaction times. Knowing which scenarios are most challenging to humans would allow us to redesign the system or implement safeguards. 
+In the next plot, we can also see that, over time, the model is increasingly able to exploit the human's weakpoints and trigger higher reaction times. Knowing which scenarios are most challenging to humans would allow us to redesign the system or implement safeguards. 
 
 <img src="{{site.baseurl}}/assets/learning curve.png">
 
-All in all, I think that smart models could, and probably should, become more prevalent in supervising and protecting human operators, who are still unwilling to be replaced alltogether.
+All in all, I think that smart models are ready to "stop playing games" and become more prevalent in supervising and protecting human operators, who are still unwilling to be replaced alltogether.
 
-If you are interested, please check out the annotated code template here: [Python tutorial](https://osf.io/bg4e7/){:target="_blank"}
+If you are interested, please check out the full text here: [Tutorial](https://osf.io/bg4e7/){:target="_blank"}
 
 
 Ref:
