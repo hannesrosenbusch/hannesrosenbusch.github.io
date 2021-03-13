@@ -1,5 +1,5 @@
 ---
-title: "Autonomous machine detection of weakpoints in human performance"
+title: "THEY ARE RISING UP! Minimizing (or maximizing) human error through reinforcement learning algorithms"
 date: 2021-03-13
 tags: [Machine Learning]
 excerpt: "AI systems are smart enough to beat us in games like chess and Go. Why not use it to detect human weaknesses elsewhere?"
