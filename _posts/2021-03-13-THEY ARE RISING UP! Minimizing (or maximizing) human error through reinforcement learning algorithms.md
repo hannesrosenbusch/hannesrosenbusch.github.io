@@ -12,7 +12,7 @@ Human errors in a board game are not usually tied to extreme risks or dangers. H
 I started building the code blocks necessary for building such a system. Because I was too lazy to keep interacting with the model myself until it learned my weakspots, I also wrote a "human simulator" based on fairly naive psychological assumptions.
 The task of this "human" is to receive and process information from an industrial system and to decide correctly, and as quickly as possible, whether an alarm should be triggered. This seemed like a pretty generalizable scenario.
 
-The human struggles when they receive different types of information in quick succession, when the information is seemingly contradictory, or when there was a relaxing pace in the previous interactions. After probing and observing the human for a while, the reinforcement learning model detects which scenarios elicit the poorest reaction times or even wrong reactions.
+The human struggles when they receive different types of information in quick succession, when the information is seemingly contradictory, or when there was a relaxing pace in the previous interactions. After probing and observing the (fairly simple-minded) human for a while, the reinforcement learning model detects which scenarios elicit the poorest reaction times or even wrong reactions.
 
 You can see in the graph below that the model (i.e., the "agent") knows which inputs are easiest for the human (darker colors) and which inputs appear the most challenging (brighter colors). The details of this tabular scenario representation are not so important, but can be understood from the full tutorial (link below).
 
