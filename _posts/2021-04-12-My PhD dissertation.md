@@ -1,5 +1,5 @@
 ---
-title: "My PhD dissertation: Table of contents and full pdf"
+title: "My PhD dissertation: Table of contents & full pdf"
 date: 2021-04-12
 tags: [Machine Learning, Applications]
 excerpt: "4 years of intense work and research in the field of behavioral data science are bundled in this book. Check out the chapter overview or read the full pdf."
