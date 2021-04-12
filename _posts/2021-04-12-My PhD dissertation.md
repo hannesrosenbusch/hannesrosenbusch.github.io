@@ -11,4 +11,4 @@ While there were too many projects to describe in this blog post, I hope that an
 
 Maybe you are interested in different machine learning algorithms and the myriad of cool things one can do with them (see chapters 2-4). Maybe you want to know what computer vision or natural language processing has to offer to people working in behavioral research or applied settings (see chapters 5-9). Or maybe you want to learn more about video game tournaments or stand-up comedy (see chapters 10 & 11). Whatever it may be, you can download the full pdf here: [Computational methods in the behavioral sciences](https://osf.io/fsq53/){:target="_blank"}
 
-<img src="{{site.baseurl}}/assets/diss_contents.jpg">
+<img src="{{site.baseurl}}/assets/diss contents.jpg">
