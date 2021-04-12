@@ -1,8 +1,8 @@
 ---
-title: "Teaching machine learning at Princeton University"
+title: "Teaching machine learning at Princeton"
 date: 2021-04-13
 tags: [Machine learning]
-excerpt: "Watch the test run for my first guest lecture"
+excerpt: "You can watch my practice run for the first guest lecture here."
 ---
 
 Recently, my colleagues and I published a paper serving as a hands-on introduction to machine learning for behavioral scientists. In response, Robin Gomilla invited me to share my knowledge in his course on Advanced Statistics, and supervise his graduate students in their first steps towards writing machine learning scripts. As I usually do, I recorded my lecture practice run and given the positive experience in the live sessions, I decided to upload the presentation part here. While the practice run wasn't super smooth yet, I hope you find it informative. 
