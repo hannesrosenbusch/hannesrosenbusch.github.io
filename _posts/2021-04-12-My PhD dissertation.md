@@ -2,7 +2,7 @@
 title: "My PhD dissertation: Table of contents and full pdf"
 date: 2021-04-12
 tags: [Machine Learning, Applications]
-excerpt: "4 years of intense work and research in the field of behavioral data science are bundled in this book. Check out the chapter overview or read the full pdf here."
+excerpt: "4 years of intense work and research in the field of behavioral data science are bundled in this book. Check out the chapter overview or read the full pdf."
 ---
 
 The goal of my PhD was to explore cutting-edge methods from the field of data science and utilize them to conduct innovative behavioral research. Throughout this journey, my colleagues and I additionally spent much time on developing software and applications for users in the scientific community.
