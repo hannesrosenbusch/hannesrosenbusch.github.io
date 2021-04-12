@@ -1,8 +1,8 @@
 ---
-title: "Teaching machine learning at Princeton"
+title: "Extending my teaching in machine learning"
 date: 2021-04-13
 tags: [Machine learning]
-excerpt: "You can watch my practice run for the first guest lecture here."
+excerpt: "I uploaded the practice run for my first guest lecture at Princeton."
 ---
 
 Recently, my colleagues and I published a paper serving as a hands-on introduction to machine learning for behavioral scientists. In response, Robin Gomilla invited me to share my knowledge in his course on Advanced Statistics. 
