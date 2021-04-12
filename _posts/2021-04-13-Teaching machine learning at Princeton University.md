@@ -1,6 +1,6 @@
 ---
 title: "Teaching machine learning at Princeton University"
-date: 2016-10-01
+date: 2021-04-13
 tags: [Machine learning]
 excerpt: "Watch the test run for my first guest lecture"
 ---
