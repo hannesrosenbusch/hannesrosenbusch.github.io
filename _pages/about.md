@@ -3,7 +3,7 @@ title: "About me"
 permalink: /about/
 ---
 
-My interests are behavioral data science, and the psychology of humor.
+My interests are behavioral data science and the psychology of humor.
 
 Currently, I work as a data scientist at Appinio and as an assistant professor at the University of Amsterdam (department of psychological methods).
 
