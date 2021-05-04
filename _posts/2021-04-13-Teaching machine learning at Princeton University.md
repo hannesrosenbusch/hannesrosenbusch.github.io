@@ -1,7 +1,7 @@
 ---
 title: "Extending my teaching in machine learning"
 date: 2021-04-13
-tags: [Machine learning]
+tags: [Machine Learning]
 excerpt: "I uploaded the practice run for my first guest lecture at Princeton."
 ---
 
