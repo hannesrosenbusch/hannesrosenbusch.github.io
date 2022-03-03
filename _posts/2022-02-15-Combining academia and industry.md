@@ -1,6 +1,6 @@
 ---
 title: "Combining academia and industry"
-date: 2022-12-01
+date: 2022-02-15
 tags: [other, teaching]
 excerpt: "My experience in harmonizing two part-time jobs"
 ---
