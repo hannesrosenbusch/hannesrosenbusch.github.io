@@ -5,7 +5,7 @@ tags: [other, teaching]
 excerpt: "My experience in harmonizing two part-time jobs"
 ---
 
-After graduating, I felt like I stood at a career cross-roads: academia or industry. I think this feeling is shared among many during the time of finalizing their dissertation. However, during that time I heard of people being very happy and prolific in hybrid positions. This observation was purely anecdotal and might be specific to the discipline of data science, but I decided to also go for it. By now, I have been splitting my time between a social media/market research company and a university position for almost a year. And my current evaluation of a hybrid set-up is "great!" ...under certain, lucky conditions.
+After graduating, I felt like I stood at a career cross-roads: academia or industry. I think this feeling is shared among many during the time of finalizing/defending a dissertation. However, during that time I had also heard of people being very happy and prolific in hybrid positions. This observation was purely anecdotal and might be specific to the discipline of data science, but I decided to go for it as well. By now, I have been splitting my time between a social media/market research company and a university position for almost a year. And my current evaluation of a hybrid set-up is "great!" ...under certain, lucky conditions.
 
 In my case, I believe that the key things making the hybrid set-up very enjoyable are: having two very "new-school" employers with self-scheduled working hours, plenty of remote work, and many opportunities for cross-fertilization. 
 
@@ -17,18 +17,16 @@ Some examples of this cross-fertilization:
 
 3) The data science master program (where I primarily teach) offers many opportunities for external projects. Therefore, I can offer plenty of spots for students as visiting data scientists or interns. So the setup is great for recruiting as well.
 
-Together, these factors make me feel like I can perfrom better in both jobs, than if I had opted out of one trajectory.
+Together, these factors make me feel like I can perform better in both jobs, than if I had opted out of one trajectory.
 
-To some degree, I assume that this bimodal job setup is an inherent part in most data scientists' work. The job title includes science after all and one cannot stay successful to long while closing one's eyes towards new developments in the field.
+To some degree, I assume that this bimodal job setup is an inherent part of most data scientists' work. The job title includes science after all and one cannot stay successful to long while closing one's eyes towards new developments in the field.
 
-However, having a single employer that allows time for teaching, applied work, and publishing is probably a lot to ask for.
-
-So the dual employer setup can be great for that.
+However, having a single employer that allows time for teaching, applied work, and publishing is probably a lot to ask for. So the dual employer setup can be great for that.
 
 Still, it definitely requires flexibility from all parties that might not always be realistic. For instance, I had an immense teaching load in January and it was therefore simply impossible to go to all non-university meetings.
 
 These scenarios are probably quite common in dual-employer setups and it should be agreed upon that, for instance, working hours might be restructured every few weeks.
 
-All in all, I am very happy with a mixed setup between academia and industry. Simultaneously, I am very aware that this happiness is neither self-made nor to be expected, but simply a result of having two compatible employers.
+All in all, I am very happy with a mixed setup between academia and industry. Simultaneously, I am very aware that this happiness is neither self-made nor to be expected, but simply a result of having two compatible employers. For people that have identified such two parties, I definitely recommend to try and set up a hybrid position.
 
 
