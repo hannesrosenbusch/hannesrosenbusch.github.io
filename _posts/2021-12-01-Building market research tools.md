@@ -9,7 +9,7 @@ My new employer conducts market research worldwide. Business clients approaching
 I am especially proud of the conjoint analyses webapp which allows consultants to conduct fairly complex operations in a multi-step process. The webapp functionality encompasses the development of an orthogonalized study design, the layouting of the stimuli, as well as the final data analysis using Bayesian multilevel models and market simulations. Despite the complexity of the procedure, any of our consultants can essentially click through the steps autonomously and export results in a format that can be forwarded to business clients. Check out some screenshots from a study on chocolate products below. 
 
 <img src="{{site.baseurl}}/assets/chocolate.PNG">
-<img src="{{site.baseurl}}/assets/multilevel plot.png">
+
 Silly as I am, I also tested the app with a study identifying the most important features of German dating profiles (Spoiler alert: facial attractiveness trumps job status or facial expression). Sorry to all English readers for the screenshot below.
 
 
