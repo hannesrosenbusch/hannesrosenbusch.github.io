@@ -18,4 +18,4 @@ Below is the recording of a bonus livestream from the end of the course.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zJ5PHDfxjjw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-You can also check out Michael's [website](https://www.michaeldnunez.com/){:target="_blank"}) 
+You can also check out Michael's [website](https://www.michaeldnunez.com/){:target="_blank"}
