@@ -2,7 +2,7 @@
 title: "New course - Intro to programming"
 date: 2022-03-03
 tags: [teaching]
-excerpt: "My co-teacher uploaded all lectures, assignments, and exams for our new course"
+excerpt: "All lectures, assignments, and exams for our new course are online"
 ---
 
 Michael Nunez and I recently finished the first iteration of our course "Introduction to programming", in which behavioral science students (mostly from psychology) get their hands dirty with R and Python.
@@ -14,4 +14,8 @@ Things that helped a lot were 1) having lots of teaching assistants to grade and
 
 Especially point 4) and 5) were essential to maintain a highly motivated group of students as we certainly did not go easy on them in terms of desirable difficulties and helping them to help themselves.
 I am very much looking forward to teaching this course again next year! 
-Check out Michael's [website](https://www.michaeldnunez.com/){:target="_blank"}) 
+Below is the recording of a bonus livestream from the end of the course.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zJ5PHDfxjjw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+You can also check out Michael's [website](https://www.michaeldnunez.com/){:target="_blank"}) 
