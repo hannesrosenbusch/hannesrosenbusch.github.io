@@ -1,7 +1,7 @@
 ---
 title: "Why do people laugh?"
 date: 2022-06-15
-tags: [Machine Learning]
+tags: [Psychological Theory]
 excerpt: "We published our work on the psychology of humor"
 ---
 
