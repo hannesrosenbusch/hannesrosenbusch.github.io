@@ -15,4 +15,4 @@ So if you have an idea for a cool, interdisciplinary project...
 
 Outside of the office, I like watching stand-up, playing soccer, and walking my parents' 14-year old dog Dobby, who is a Golden Retriever that is balding on the nose and has lost some of his early-life agility, but who, nonetheless, brings joy to anyone who visits my parents, and who is going to live forever. 
 
-[Short CV (2021)]({{ site.url }}/assets/cv hr.pdf)
+[Short CV (August 2022)]({{ site.url }}/assets/cv hr.pdf)
