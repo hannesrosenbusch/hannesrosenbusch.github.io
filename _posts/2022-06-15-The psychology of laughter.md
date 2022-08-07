@@ -19,6 +19,6 @@ In order to establish the contribution of each source of variance (stimulus, per
 
 All in all, this project strongly contributed to deemphasizing the social-psychological focus on humor <i> materials </i> in favor of investigating humor <i> audiences </i> which is more common in personality psychology.
 
-If you are interested, please check out the: [Psychological Science postprint](https://osf.io/bg4e7/){:target="_blank"}
+If you are interested, please check out the: [Psychological Science postprint](https://osf.io/t69jd/){:target="_blank"}
 
 
