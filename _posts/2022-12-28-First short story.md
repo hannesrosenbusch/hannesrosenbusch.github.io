@@ -12,23 +12,23 @@ excerpt: "A short text from a fiction-writing workshop"
 
 I tried to lift my head slightly. “The show… <i>argh</i>!” The words made my spine pierce into my brain. “did… we… win?” I continued whispering. His pained expression was answer enough.
 
-“Lara really tried, man. She put her weight into the bat and everything, just like you told her. But she only smashed out three of your molars. She also cracked your right cheekbone for two points, but the groom of the winning couple lost eight teeth on the first swing. His wife basically took his head off with that thing. He is next door. Not sure if he is going to make it.”
+“Lara really tried, man. She put her weight into the bat and everything, just like you told her. But she only smashed out three of your molars. She also cracked your right cheekbone for two points, but the groom of the winning couple lost eight teeth on the first swing. His wife basically took his head off with that thing. He's next door. Not sure if he's going to make it.”
 
 I let my head sink back on the pillow, blinding pain washing over me. Tears started to fill my eyes. This was it, the worst scenario. 
 
 Staring at the ceiling, I carefully cleared my throat. “Lara… where?”
 
-“She is still with that shrink from before the show.” Brian squirmed uncomfortably. “She is pretty messed up by all of this.” 
+“She's still with that shrink from before the show.” Brian squirmed uncomfortably. “She's pretty messed up by all of this.” 
 
-Lara had been ambivalent from the start—<i>why can’t we just have a normal wedding?</i>—but I had bullied her into participating. People always told her I wasn’t good enough. Now she would finally agree.
+Lara had been ambivalent from the start—<i>why can’t we just have a normal wedding?</i>—but I had bullied her into participating. As usual. People always told her I wasn’t good enough. Now she would finally agree.
 
 I could hear Brian nervously tapping his fingernails against the metal frame of the bed. “The doctors kind of keep pestering Lara about the payment for your emergency surgery. You guys being married now and all.”
 
 I stayed silent. What could I say to that.
 
-Brian gently patted the blanket. “Don’t worry buddy. I will make something up.” His eyes wandered through the room. “Do you want some TV? I think you could use the distraction.”
+Brian gently patted the blanket. “Don’t worry buddy. I'll make something up.” His eyes wandered through the room. “Do you want some TV? Guess you could use some distraction.”
 
-The big clock on the wall showed eight on the dot. He switched on the tiny screen in the corner. The Wedding Crashers theme came blaring through the old speakers. “Oh, sorry bud. Probably the last thing you want to see right now, right? Where is that damn remote?”
+The big clock on the wall showed eight on the dot. He switched on the tiny screen in the corner. The Wedding Crashers theme came blaring through the old speakers. “Oh, sorry bud. Probably the last thing you want to see right now, right? Where's that damn remote?”
 
 I spotted my folded tuxedo on a chair. A few blood stains were visible on the white shirt. The rental place had offered a great price when I had mentioned the show. 
 
