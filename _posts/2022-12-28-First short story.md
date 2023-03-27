@@ -18,7 +18,7 @@ I let my head fall back on the pillow, blinding pain washing over me. Tears star
 
 Staring at the ceiling, I carefully cleared my throat. “Lara… where?”
 
-“She is still with that shrink from the show.” Brian squirmed uncomfortably. “She is pretty messed up by all of this you know.” 
+“She is still with that shrink from the show.” Brian squirmed uncomfortably. “She is pretty messed up by all of this.” 
 
 Lara had been ambivalent from the start—why can’t we just have a normal wedding—but I had bullied her into participating. As usual. For years, people told her I wasn’t good enough. Now she would finally agree.
 
