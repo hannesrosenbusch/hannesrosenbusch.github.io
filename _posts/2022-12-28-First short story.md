@@ -7,20 +7,20 @@ excerpt: "A short text from a fiction-writing workshop"
 
 <b>Wedding Crashers: Season 1</b>
 
-“You are in the hospital. They said you will pull through, but your teeth are pretty messed up buddy.”
-I stared up at Brian through the clearing fog. He shuffled his feet awkwardly.
+“You are in the hospital." I stared up at Brian through the clearing fog. He swayed back-and-forth awkwardly. "They said you will pull through, but your teeth are pretty messed up, buddy.”
 
-“The show… Argh!” The words made my spine pierce into my brain. “did… we… win?” I could see the answer on my friend’s pained face.
 
-“Lara really tried, man. She put her weight into the bat and everything just like you told her. But she only smashed out three of your molars. She also cracked your right cheekbone for two points, but the groom of the winning couple lost eight teeth on the first swing. His wife basically took his head off with that thing. He is next door. Not sure if he is going to make it.”
+I tried my head slightly. “The show… <i>argh</i>!” The words made my spine pierce into my brain. “did… we… win?” I continued whispering. The answer was written in my friend’s pained fexpression.
 
-I let my head fall back on the pillow, blinding pain washing over me. Tears started to fill my eyes. This was it. The worst scenario. 
+“Lara really tried, man. She put her weight into the bat and everything, just like you told her. But she only smashed out three of your molars. She also cracked your right cheekbone for two points, but the groom of the winning couple lost eight teeth on the first swing. His wife basically took his head off with that thing. He is next door. Not sure if he is going to make it.”
+
+I let my head sink back on the pillow, blinding pain washing over me. Tears started to fill my eyes. This was it, the worst scenario. 
 
 Staring at the ceiling, I carefully cleared my throat. “Lara… where?”
 
-“She is still with that shrink from the show.” Brian squirmed uncomfortably. “She is pretty messed up by all of this.” 
+“She is still with that shrink from before the show.” Brian squirmed uncomfortably. “She is pretty messed up by all of this.” 
 
-Lara had been ambivalent from the start—<i>why can’t we just have a normal wedding</i>—but I had bullied her into participating. As usual. For years, people told her I wasn’t good enough. Now she would finally agree.
+Lara had been ambivalent from the start—<i>why can’t we just have a normal wedding?</i>—but I had bullied her into participating. People always told her I wasn’t good enough. Now she would finally agree.
 
 I could hear Brian nervously tapping his fingernails against the metal frame of the bed. “The doctors kind of keep pestering Lara about the payment for your emergency surgery. You guys being married now and all.”
 
