@@ -10,7 +10,7 @@ excerpt: "A short text from a fiction-writing workshop"
 “You are in the hospital." I stared up at Brian through the clearing fog. He swayed back-and-forth awkwardly. "They said you will pull through, but your teeth are pretty messed up, buddy.”
 
 
-I tried to lift my head slightly. “The show… <i>argh</i>!” The words made my spine pierce into my brain. “did… we… win?” I continued whispering. His pained expression was answer enough.
+I tried to lift my head slightly. “The show… <i>argh</i>!” The words made my spine pierce into my brain. “did… we… win?” I whispered. His pained expression was answer enough.
 
 “Lara really tried, man. She put her weight into the bat and everything, just like you told her. But she only smashed out three of your molars. She also cracked your right cheekbone for two points, but the groom of the winning couple lost eight teeth on the first swing. His wife basically took his head off with that thing. He's next door. Not sure if he's going to make it.”
 
@@ -32,4 +32,4 @@ The big clock on the wall showed eight on the dot. He switched on the tiny scree
 
 I spotted my folded tuxedo on a chair. A few blood stains were visible on the white shirt. The rental place had offered a great price when I had mentioned the show. 
 
-Brian sat down at the end of the bed. “Apparently, the grooms are racing to gnaw off their girls’ ring finger with their teeth.” His eyes were fixed on the screen. “One million less in the pot than yesterday though. They can barely afford a proper honeymoon if they win.”
+Brian sat down at the end of the bed. “Apparently, the grooms are racing to gnaw off their girls’ ring finger.” His eyes were fixed on the screen. “One million less in the pot than yesterday though. They can barely afford a proper honeymoon if they win.”
