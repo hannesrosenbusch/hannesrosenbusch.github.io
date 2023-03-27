@@ -10,7 +10,7 @@ excerpt: "A short text from a fiction-writing workshop"
 “You are in the hospital." I stared up at Brian through the clearing fog. He swayed back-and-forth awkwardly. "They said you will pull through, but your teeth are pretty messed up, buddy.”
 
 
-I tried to lift my head slightly. “The show… <i>argh</i>!” The words made my spine pierce into my brain. “did… we… win?” I continued whispering. The answer was written in my friend’s pained fexpression.
+I tried to lift my head slightly. “The show… <i>argh</i>!” The words made my spine pierce into my brain. “did… we… win?” I continued whispering. His pained expression was answer enough.
 
 “Lara really tried, man. She put her weight into the bat and everything, just like you told her. But she only smashed out three of your molars. She also cracked your right cheekbone for two points, but the groom of the winning couple lost eight teeth on the first swing. His wife basically took his head off with that thing. He is next door. Not sure if he is going to make it.”
 
