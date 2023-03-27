@@ -20,7 +20,7 @@ Staring at the ceiling, I carefully cleared my throat. “Lara… where?”
 
 “She is still with that shrink from the show.” Brian squirmed uncomfortably. “She is pretty messed up by all of this.” 
 
-Lara had been ambivalent from the start—why can’t we just have a normal wedding—but I had bullied her into participating. As usual. For years, people told her I wasn’t good enough. Now she would finally agree.
+Lara had been ambivalent from the start—<i>why can’t we just have a normal wedding<i/>—but I had bullied her into participating. As usual. For years, people told her I wasn’t good enough. Now she would finally agree.
 
 I could hear Brian nervously tapping his fingernails against the metal frame of the bed. “The doctors kind of keep pestering Lara about the payment for your emergency surgery. You guys being married now and all.”
 
