@@ -18,4 +18,4 @@ The following three questions are addressed through original reseach:
 The talk was recorded live in Paris in front of an interdisciplinary group of designers, empirical researchers, managers, and students.
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/https://www.youtube.com/watch?v=cBJl8YyTZjA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cBJl8YyTZjA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
