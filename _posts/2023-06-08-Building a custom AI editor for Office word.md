@@ -13,6 +13,6 @@ I also added a chatbot window as I sometimes need responses that do not land in 
 
 Below I made a 90-second demo of the tool. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=6pqF1wEonAA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6pqF1wEonAA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 You can download the tool from github and use it yourself if you'd like to.
