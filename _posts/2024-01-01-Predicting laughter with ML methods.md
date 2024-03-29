@@ -5,20 +5,20 @@ tags: [Psychological Science, Machine Learning]
 excerpt: "Many scholars have written about humor, but how well can we actually predict joke appreciation?"
 ---
 
-Since the earliest philosophers, sientists have amassed predictors and theories about when and why someone laughs. What makes one joke funnier than the other? Is humor mostly in the eye of the beholder or are some jokes simply funnier than others?
+Since ancient times, scientists and philosophers have amassed theories about when and why someone laughs. What makes one joke funnier than the other? Is humor mostly in the eye of the beholder or are certain jokes objectively good?
 
-Many prominent psychological constructs, including a person's character, mood, attitudes, and skills, have been suggested to predict whether they will laugh at a joke.
-Similarly, the interaction between a joke's content (e.g., political commentary) and the listener's traits (e.g., political orientation) was suggested to be most useful for prediction. The latter is reflected in most modern content recommendation systems.
+Many prominent psychological constructs, including a person's character, mood, attitudes, and skills, have been suggested to predict whether they will laugh at a given joke.
+Similarly, the interaction between a joke's content (e.g., political commentary) and the listener's traits (e.g., political orientation) was suggested to determine laughter.
 
-In our study, we threw a large collection of predictors from the science of humor at the problem of predicting joke ratings and found...
+In our study, we threw a large collection of predictors from the interdisciplinary science of humor at the problem of predicting joke ratings and found...
 
 IT WORKS!
 
-Responses to humor can be predicted with an accuracy that even surpasses the retest-stability of the humor responses themselves, meaning our predictions were closer to people's true reactions than their own reactions at a later time. Note that repeated exposure is a bit of a hot topic in humor appreciation research.
+Responses to humor can be predicted with an accuracy that even surpasses the retest-stability of the humor responses themselves, meaning our predictions were closer to people's reactions than their own reactions at a later time. Note that repeated exposure is a bit of a hot topic in humor appreciation research.
 
-When we look at which of the many psychological predictors enables these predictions, we observed the most classic finding at the intersection of ML and behavioral science: Past behavior is by far the best predictor, and should form part of any recommendation system.
+When we look at which of the psychological predictors enabled these predictions, we observed the most classic finding at the intersection of ML and behavioral science: Past behavior is by far the best predictor, and should form part of any recommendation system.
 
-The plot below shows a breakdown of a bunch of the psychological constructs which, despite being associated with humor appreciation, only provided marginal gains over past behavior.
+The plot below shows a breakdown of the other psychological constructs which, despite being associated with humor appreciation, only provided marginal gains over predictions based on past behavior.
 
 <img src="{{site.baseurl}}/assets/ml humor predictions.png">
 
