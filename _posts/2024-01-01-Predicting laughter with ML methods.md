@@ -2,7 +2,7 @@
 title: "How well can psychological science predict laughter?"
 date: 2024-03-03
 tags: [Psychological Science, Machine Learning]
-excerpt: "Many scholars have written about humor, but how well can they actually predict it joke appreciation?"
+excerpt: "Many scholars have written about humor, but how well can we actually predict joke appreciation?"
 ---
 
 Since the earliest philosophers, sientists have amassed predictors and theories about when and why someone laughs. What makes one joke funnier than the other? Is humor mostly in the eye of the beholder or are some jokes simply funnier than others?

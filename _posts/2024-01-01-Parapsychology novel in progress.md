@@ -13,3 +13,5 @@ When thrust into the afterlife together, the dysfunctional duo must explore thei
 
 As their time is ticking away, they discover that a life worth living comes at a steep price.
 
+EXPECTED RELEASE: 2025
+
