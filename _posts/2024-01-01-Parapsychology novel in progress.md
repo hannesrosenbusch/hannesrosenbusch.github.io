@@ -11,7 +11,7 @@ A traumatized girl experiments with drugs in her parents' attic.
 
 When thrust into the afterlife together, the dysfunctional duo must explore their innermost desires through a series of pseudo-scientific challenges run by a childish angel and an unscrupulous parapsychologist.
 
-As their time is ticking away, they discover that a life worth living comes at a steep price.
+As their time ticks away, they discover that a life worth living comes at a steep price.
 
 EXPECTED RELEASE: 2025
 
