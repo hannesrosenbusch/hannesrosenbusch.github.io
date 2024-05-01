@@ -5,13 +5,15 @@ tags: [Writing]
 excerpt: "An unlikely duo, ridiculous science, and desperate attemps to escape the afterlife."
 ---
 
-A lonely baker is murdered on a university campus. 
+I have spent the last years working on my debut novel. The expected year of release is 2025. Below is a blurb :)
 
-A traumatized girl experiments with drugs in her parents' attic.
+<br>
 
-When thrust into the afterlife together, the dysfunctional duo must explore their innermost desires through a series of pseudo-scientific challenges run by a childish angel and an unscrupulous parapsychologist.
+"A lonely baker is shot on a university campus. 
 
-As their time ticks away, they discover that a life worth living comes at a steep price.
+A teenage girl experiments with drugs in her parents' attic.
 
-EXPECTED RELEASE: 2025
+Halfway to the afterlife, this duo encounters a childish angel, who promises them reanimation on the condition that they find a renewed sense of purpose.
+
+As time ticks away, their only hope is a failed parapsychology student who designs inspirational challenges for all near-death-residents of the Reanimation Zone."
 
