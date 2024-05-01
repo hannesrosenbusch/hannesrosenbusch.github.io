@@ -13,7 +13,7 @@ I have spent the last years working on my debut novel. The expected year of rele
 
 A teenage girl experiments with drugs in her parents' attic.
 
-Halfway to the afterlife, this duo encounters a childish angel, who promises them reanimation on the condition that they find a renewed sense of purpose.
+Halfway to the afterlife, a childish angel promises them reanimation, but only if they find a renewed sense of purpose.
 
-As time ticks away, their only hope is a failed parapsychology student who designs inspirational challenges for all near-death-residents of the Reanimation Zone."
+As time ticks away, their hope rests on a failed parapsychologist designing inspirational challenges for all residents of the Reanimation Zone."
 
