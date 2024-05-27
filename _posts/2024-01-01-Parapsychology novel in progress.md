@@ -9,11 +9,11 @@ I have spent the last years working on my debut novel. The expected year of rele
 
 <br>
 
-"A lonely baker is shot on a university campus. 
+"A teenage girl overdoses in her parents' attic.
 
-A teenage girl experiments with drugs in her parents' attic.
+A lonely baker dies on a university campus. 
 
-Halfway to the afterlife, a childish angel promises them reanimation, but only if they find a renewed sense of purpose.
+Halfway to the afterlife together, they meet a psychology-obsessed angel who promises them reanimation if they can find a renewed sense of purpose.
 
-As time ticks away, their hope rests on a failed parapsychologist designing inspirational challenges for all residents of the Reanimation Zone."
+As their time ticks away, they discover that a life worth living comes at a high price."
 
