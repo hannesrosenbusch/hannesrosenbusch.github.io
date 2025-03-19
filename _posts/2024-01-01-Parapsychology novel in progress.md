@@ -1,7 +1,7 @@
 ---
 title: "I am writing a science-fantasy novel"
 date: 2024-01-01
-tags: [Writing]
+tags: [Writing, Fiction]
 excerpt: "An unlikely duo, ridiculous science, and desperate attemps to escape the afterlife."
 ---
 
