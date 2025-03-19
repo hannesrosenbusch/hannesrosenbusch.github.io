@@ -20,11 +20,11 @@ As an aspiring writer, this was certainly a sobering insight. You can't get ever
 In fact, it's guaranteed that, for every book, there are readers who absolutely loathe it.
 I could now verify this industry wisdom with my own eyes, using my own dataset.
 
-We ran an additional analysis, checking whether people at least describe similar strengths and weaknesses when reviewing a book, but again, it seems like readers mostly talk about their enduing pet peeves.
+We ran an additional analysis, checking whether people at least describe similar strengths and weaknesses when reviewing a book, but again, it seems like readers mostly talk about their personal pet peeves.
 
 <img src="{{site.baseurl}}/assets/review_issue_agreement.png">
 
 <i>The X axis shows various topics that were brought up in book reviews. The Y axis shows how much more likely it is that a review mentions this topic if it was mentioned in a reference review (i.e., 
 Probability(Topic | mentioned in reference) / Probability(Topic | not mentioned in reference). For instance, the black triangular point on the left indicates that a review is twice as likely to mention that the reviewer felt addicted to the book, if the same reviewer made that claim about a different (randomly chosen) book. The gray circle below the triangle indicates that a review is about 1.5 times more likely to contain ‘feeling addicted’ if another (randomly chosen) reviewer made that statement about the same book.</i>
 
-If you are interested in the full paper, check it out [here](https://arxiv.org/abs/2503.02671){:target="_blank"} 
+If you are interested in the full paper, check it out [here.](https://arxiv.org/abs/2503.02671){:target="_blank"} 
