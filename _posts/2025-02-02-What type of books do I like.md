@@ -21,7 +21,7 @@ The AI pipeline worked very well, and allowed me to examine how individual book 
 
 I got some interesting nudges from this analysis (my enjoyment correlates .29 with the mainstream, and maybe I don't dislike the crime genres as much as I had thought). Naturally, I followed up by training a personal book recommendation model.
 
-<img src="{{site.baseurl}}/assets/isaac_model performance.png">
+<img src="{{site.baseurl}}/assets/isaac_model performance2.png">
 <i>Left: the Pearson correlation between predicted book rating and actual book rating. Each sample size (X axis) was drawn 30 times via bootstrap sampling and the average model performance is plotted. Right: The top 10 predictors within the full-sample random forest model, ranked according to their error reduction.</i>
 
 It appears like the annotation-based recommendation system works reasonably well, gets better as I continue reading, and definitely beats the baseline heuristics of ranking books based on average review scores or genres.
