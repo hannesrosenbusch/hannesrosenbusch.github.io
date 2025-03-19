@@ -106,7 +106,7 @@ author:
   name             : "Hello!"
   avatar           : "/images/corridor pic hannes.jpg"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Welcome to my website. You will find plenty of information about me and my research."
-  location         : "The Netherlands"
+  location         : "Amsterdam, The Netherlands"
   email            :
   links:
     - label: "Email"
