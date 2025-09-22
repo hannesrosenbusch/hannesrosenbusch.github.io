@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Academic blog by Hannes Rosenbusch. Explore research posts, machine learning tutorials, and insights from psychology, economics, and AI.">
+    <title>Academic Blog - Hannes Rosenbusch</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 2rem;
+            line-height: 1.6;
+            background-image: url('assets/images/amsterdam.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+            opacity: 0;
+            transition: opacity 0.3s ease-in;
+        }
+        
+        body.loaded {
+            opacity: 1;
+        }
+        .blog-container {
+            max-width: 800px;
+            margin: 2rem auto;
+            background-color: rgba(64, 64, 64, 0.85);
+            border-radius: 8px;
+            padding: 2rem;
+            color: white;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 2rem;
+            color: white;
+        }
+        ul.post-list {
+            list-style: none;
+            padding: 0;
+        }
+        ul.post-list li {
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #444;
+        }
+        ul.post-list li:last-child {
+            border-bottom: none;
+        }
+        .post-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+        }
+        .post-date {
+            font-size: 0.95rem;
+            color: rgba(255, 255, 255, 0.7);
+            margin-right: 0.5rem;
+        }
+        
+        .older-posts-btn {
+            background: #495057;
+            border: 1px solid #495057;
+            color: white;
+            padding: 0.4rem 0.8rem;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 2rem auto;
+            display: block;
+            font-size: 0.85rem;
+            transition: background-color 0.2s;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+        }
+        
+        .older-posts-btn:hover {
+            background: #343a40;
+        }
+        
+        .hidden-posts {
+            display: none;
+        }
+        
+        .hidden-posts.show {
+            display: block;
+        }
+        
+        nav {
+            position: fixed;
+            top: 1rem;
+            left: 1rem;
+            z-index: 100;
+        }
+        
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+            text-shadow: none;
+            font-size: 0.9rem;
+        }
+        
+        nav a:hover {
+            text-decoration: none;
+            background: rgba(0, 0, 0, 0.9);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="books.html">← Back</a>
+    </nav>
+    <div class="blog-container">
+        <h1>Academic Blog</h1>
+        <ul class="post-list" id="post-list">
+            <!-- Blog posts will be dynamically loaded here -->
+        </ul>
+        <button class="older-posts-btn" id="older-posts-btn" onclick="showOlderPosts()">Older Posts</button>
+    </div>
+    
+    <script>
+        // List of all blog post files (needs to be maintained manually due to browser security restrictions)
+        const blogPosts = [
+            '2025-02-02-What type of books do I like.md',
+            '2024-11-15-Are some books better than others.md',
+            '2024-09-09-Predicting laughter with ML methods.md',
+            '2024-08-08-Online course--Python for R users.md',
+            '2024-06-06-Online course--Introduction to R.md',
+            '2024-01-01-Parapsychology novel in progress.md',
+            '2023-06-08-Building a custom AI editor for Office word.md',
+            '2023-02-15-Institut Français de la Mode.md',
+            '2022-12-28-First short story.md',
+            '2022-10-30-Machine-generated hypotheses.md',
+            '2022-10-30-Write a short blog post about....md',
+            '2022-07-30- Fashion meets AI meets Psychology.md',
+            '2022-07-30-I am a content creator.md',
+            '2022-06-15-The psychology of laughter.md',
+            '2022-03-03-New course - Intro to programming.md',
+            '2022-02-15-Combining academia and industry.md',
+            '2021-12-01-Building market research tools.md',
+            '2021-10-07-PhD defence & summary.md',
+            '2021-04-13-Teaching machine learning at Princeton University.md',
+            '2021-04-12-My PhD dissertation.md',
+            '2021-03-13-THEY ARE RISING UP! Minimizing (or maximizing) human error through reinforcement learning algorithms.md',
+            '2020-11-30-Supervised machine learning for social scientists.md',
+            '2020-09-15-Computer vision models repredicting psychological inferences from clothing.md',
+            '2020-08-12-Inter- and intra-regional variability of intergroup attitudes predict online hostility.md',
+            '2020-03-02-Finding lucky data points through StatBreak.md',
+            '2020-03-02-Simulating Battle Royale tournaments for scientific research.md',
+            '2018-10-01-The Semantic Scale Network.md',
+            '2018-07-01-Emotion contagion and homophily on YouTube.md',
+            '2018-07-01-ML workshops for economists and psycholgists.md',
+            '2017-08-01-Distinguishing trust and gullibility through Twitter language.md',
+            '2017-05-01-NWO Research Grant.md',
+            '2017-01-01-Explaining radical group behavior.md',
+            '2013-01-01-Application NY Times sentiments.md'
+        ];
+
+        function parsePostFilename(filename) {
+            // Extract date and title from filename format: YYYY-MM-DD-Title.md
+            const match = filename.match(/^(\d{4}-\d{2}-\d{2})-(.+)\.md$/);
+            if (match) {
+                return {
+                    date: match[1],
+                    title: match[2].replace(/--/g, ' - ').replace(/-/g, ' '),
+                    filename: filename
+                };
+            }
+            return null;
+        }
+
+        function generatePostList() {
+            const postList = document.getElementById('post-list');
+            
+            // Parse and sort posts by date (newest first)
+            const parsedPosts = blogPosts
+                .map(parsePostFilename)
+                .filter(post => post !== null)
+                .sort((a, b) => new Date(b.date) - new Date(a.date));
+
+            // Generate HTML for each post
+            parsedPosts.forEach((post, index) => {
+                const li = document.createElement('li');
+                li.innerHTML = `
+                    <span class="post-date">${post.date}</span>
+                    <a class="post-title" href="post-viewer.html?post=assets/posts/${post.filename}">${post.title}</a>
+                `;
+                
+                // Hide posts beyond the first 4
+                if (index >= 4) {
+                    li.classList.add('hidden-posts');
+                }
+                
+                postList.appendChild(li);
+            });
+            
+            // Hide the "Older Posts" button if there are 4 or fewer posts
+            if (parsedPosts.length <= 4) {
+                document.getElementById('older-posts-btn').style.display = 'none';
+            }
+        }
+        
+        function showOlderPosts() {
+            const hiddenPosts = document.querySelectorAll('.hidden-posts');
+            hiddenPosts.forEach(post => {
+                post.classList.add('show');
+            });
+            
+            // Hide the button after showing older posts
+            document.getElementById('older-posts-btn').style.display = 'none';
+        }
+
+        window.addEventListener('load', function() {
+            document.body.classList.add('loaded');
+            generatePostList();
+        });
+    </script>
+</body>
+</html>

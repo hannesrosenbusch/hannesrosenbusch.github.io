@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hannes Rosenbusch writes psychological fiction exploring the afterlife. Author of Laboratory and Dormitory - dark, humorous novels about university life and near-death experiences.">
+    <title>Hannes Rosenbusch - Psychological Fiction Author</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 2rem;
+            line-height: 1.6;
+            background-image: url('assets/images/bg.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+            opacity: 0;
+            transition: opacity 0.3s ease-in;
+        }
+        
+        body.loaded {
+            opacity: 1;
+        }
+        
+        .container {
+            max-width: 600px;
+            margin: 2rem auto;
+            background-color: rgba(64, 64, 64, 0.85);
+            padding: 2rem;
+            border-radius: 8px;
+            text-align: center;
+            color: white;
+        }
+        
+        .profile-picture {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto 1.5rem auto;
+            display: block;
+            border: 4px solid #fff;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+        
+        .email-link {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            z-index: 100;
+        }
+        
+        .email-link a {
+            display: inline-block;
+            background: #495057;
+            color: white;
+            padding: 0.4rem 0.8rem;
+            border: none;
+            border-radius: 4px;
+            text-decoration: none;
+            transition: background-color 0.2s;
+            font-size: 0.85rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+        }
+        
+        .email-link a:hover {
+            background: #343a40;
+        }
+        
+        nav {
+            position: fixed;
+            top: 1rem;
+            left: 1rem;
+            z-index: 100;
+        }
+        
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+            text-shadow: none;
+        }
+        
+        nav a:hover {
+            text-decoration: none;
+            background: rgba(0, 0, 0, 0.9);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">← Back</a>
+    </nav>
+    <div class="container">
+        <img src="assets/images/face.jpg" alt="Hannes Rosenbusch" class="profile-picture">
+        
+        <p>
+            Hannes Rosenbusch lurks in the cafés and libraries of Amsterdam, writing obscure books about the afterlife. You might also spot him in the basement of the local university, conducting strange experiments on undergrads.<br>He lives in his own world. He says odd things in a German accent. He will avenge the theft of his bicycle.
+        </p>
+    </div>
+    
+    <div class="email-link">
+        <a href="email-updates.html">Get book notifications</a>
+    </div>
+    
+    <script>
+        window.addEventListener('load', function() {
+            document.body.classList.add('loaded');
+        });
+    </script>
+</body>
+</html>
