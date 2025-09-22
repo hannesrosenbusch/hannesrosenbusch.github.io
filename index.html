@@ -1,6 +1,82 @@
----
-layout: home
-author_profile: true
-header: 
-  overlay_image: "/assets/snn.png"
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hannes Rosenbusch writes psychological fiction exploring the afterlife, university life, and parapsychology. Discover Laboratory and Dormitory - compelling dark, humorous novels.">
+    <title>Hannes Rosenbusch - Psychological Fiction Author</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('assets/images/bg.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+            position: relative;
+            opacity: 0;
+            transition: opacity 0.3s ease-in;
+        }
+        
+        body.loaded {
+            opacity: 1;
+        }
+        
+        .button-container {
+            position: absolute;
+            top: 70%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            gap: 2rem;
+            flex-direction: row;
+            align-items: center;
+        }
+        
+        .nav-button {
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.2rem;
+            font-family: inherit;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            min-width: 150px;
+            text-align: center;
+        }
+        
+        .nav-button:hover {
+            background: rgba(0, 0, 0, 0.9);
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                background-image: url('assets/images/bg.jpg');
+            }
+            
+            .button-container {
+                flex-direction: column;
+                gap: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <a href="books.html" class="nav-button">Books</a>
+        <a href="author.html" class="nav-button">Author</a>
+    </div>
+    
+    <script>
+        window.addEventListener('load', function() {
+            document.body.classList.add('loaded');
+        });
+    </script>
+</body>
+</html>

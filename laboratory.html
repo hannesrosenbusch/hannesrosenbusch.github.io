@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Laboratory by Hannes Rosenbusch - A psychological fiction novel about a student's near-death experience at a Dutch university and his journey into parapsychology research.">
+    <title>Laboratory - Psychological Fiction Novel by Hannes Rosenbusch</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 2rem;
+            line-height: 1.6;
+            background-image: url('assets/images/lab window.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+            background-color: #2c2c2c;
+            opacity: 0;
+            transition: opacity 0.3s ease-in;
+        }
+        
+        body.loaded {
+            opacity: 1;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #fff;
+            margin-bottom: 1rem;
+            margin-top: 4rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        
+        nav {
+            position: fixed;
+            top: 1rem;
+            left: 1rem;
+            z-index: 100;
+        }
+        
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+            text-shadow: none;
+        }
+        
+        nav a:hover {
+            text-decoration: none;
+            background: rgba(0, 0, 0, 0.9);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+        }
+        
+        .description-box {
+            max-width: 700px;
+            margin: 2rem auto;
+            padding: 1.5rem 2rem;
+            background: rgba(64, 64, 64, 0.85);
+            border-radius: 12px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+            font-size: 1.1rem;
+            color: white;
+            line-height: 1.7;
+            text-align: center;
+        }
+        
+        button {
+            background: #495057;
+            color: white;
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 4px;
+            margin: 0.5rem;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        
+        button:hover {
+            background: #343a40;
+        }
+        
+        .email-form {
+            margin-top: 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .email-form input[type="email"] {
+            width: 250px;
+            padding: 0.5rem;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 4px;
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            font-size: 0.9rem;
+        }
+        
+        .email-form input[type="email"]::placeholder {
+            color: rgba(255, 255, 255, 0.7);
+        }
+        
+        .email-link {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            z-index: 100;
+        }
+        
+        .email-link a {
+            display: inline-block;
+            background: #495057;
+            color: white;
+            padding: 0.4rem 0.8rem;
+            border: none;
+            border-radius: 4px;
+            text-decoration: none;
+            transition: background-color 0.2s;
+            font-size: 0.85rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+        }
+        
+        .email-link a:hover {
+            background: #343a40;
+        }
+    </style>
+</head>
+<body>
+    <h1>Laboratory</h1>
+    <nav>
+        <a href="books.html">← Books</a>
+    </nav>
+    <div class="description-box">
+    In Laboratory, it is the campus of Kleinburg University itself, which narrates the story. For centuries, this neurotic institution has secretly employed objects, animals, and selected staff members to maintain its preferred version of campus life. Growing infatuated with a particular student, Kasimir Schneider, the campus enables the young man's obsession with parapsychology and the afterlife—with dire consequences. Watching Kasimir's corpse being carried away, the campus addresses its favorite student one last time, reminiscing about their time together and wondering where things went wrong.
+    </div>
+    
+    <div class="email-link">
+        <a href="email-updates.html">Alert me on release day</a>
+    </div>
+    
+    <script>
+        window.addEventListener('load', function() {
+            document.body.classList.add('loaded');
+        });
+    </script>
+</body>
+</html>
