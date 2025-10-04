@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hannes Rosenbusch writes psychological fiction exploring the afterlife, university life, and parapsychology. Discover Laboratory and Dormitory - compelling dark, humorous novels.">
+    <title>Hannes Rosenbusch - Psychological Fiction Author</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      height: 100%;
+      width: 100%;
+      background: black;
+    }
+    canvas {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+<script type="module">
+import * as PIXI from "https://cdn.jsdelivr.net/npm/pixi.js@8.x/dist/pixi.mjs";
+
+// --- Initialize PixiJS ---
+const app = new PIXI.Application();
+await app.init({ resizeTo: window, background: "black" });
+document.body.appendChild(app.canvas);
+
+// --- Load background image ---
+const bgTexture = await PIXI.Assets.load("https://raw.githubusercontent.com/hannesrosenbusch/hannesrosenbusch.github.io/refs/heads/master/assets/images/bg.jpeg");
+const bgSprite = new PIXI.Sprite(bgTexture);
+app.stage.addChild(bgSprite);
+
+// --- Keep aspect ratio ---
+function resizeBackground() {
+  const screenW = app.renderer.width;
+  const screenH = app.renderer.height;
+  const imageW = bgTexture.width;
+  const imageH = bgTexture.height;
+  const scale = Math.max(screenW / imageW, screenH / imageH);
+  bgSprite.width = imageW * scale;
+  bgSprite.height = imageH * scale;
+  bgSprite.x = (screenW - bgSprite.width) / 2;
+  bgSprite.y = (screenH - bgSprite.height) / 2;
+}
+resizeBackground();
+window.addEventListener("resize", resizeBackground);
+
+// --- Polygon creator ---
+let currentPolygon = [];
+const creatorGraphics = new PIXI.Graphics();
+app.stage.addChild(creatorGraphics);
+
+function redrawPolygon() {
+  creatorGraphics.clear();
+  if (currentPolygon.length === 0) return;
+
+  creatorGraphics.lineStyle({
+    width: 4,
+    color: 0xffff00,
+    alpha: 1,
+    join: "round",
+    cap: "round"
+  });
+  creatorGraphics.beginFill(0xffff00, 0.1);
+
+  creatorGraphics.moveTo(currentPolygon[0].screenX, currentPolygon[0].screenY);
+  for (let i = 1; i < currentPolygon.length; i++) {
+    creatorGraphics.lineTo(currentPolygon[i].screenX, currentPolygon[i].screenY);
+  }
+
+  creatorGraphics.closePath();
+  creatorGraphics.endFill();
+}
+
+// Make stage interactive
+app.stage.interactive = true;
+app.stage.hitArea = new PIXI.Rectangle(0, 0, app.renderer.width, app.renderer.height);
+
+// Convert screen coords to image-space coords
+function screenToImage(x, y) {
+  const scale = bgSprite.width / bgTexture.width;
+  const imgX = (x - bgSprite.x) / scale;
+  const imgY = (y - bgSprite.y) / scale;
+  return { x: Math.round(imgX), y: Math.round(imgY) };
+}
+
+// Click handler
+app.stage.on("pointerdown", (e) => {
+  const screenX = e.data.global.x;
+  const screenY = e.data.global.y;
+
+  const imgCoords = screenToImage(screenX, screenY);
+
+  const point = { x: imgCoords.x, y: imgCoords.y, screenX, screenY };
+  currentPolygon.push(point);
+
+  console.log("Clicked point (image-space):", { x: point.x, y: point.y });
+
+  redrawPolygon();
+});
+
+// Press Enter to finish polygon
+window.addEventListener("keydown", (e) => {
+  if (e.key === "Enter" && currentPolygon.length > 2) {
+    console.log("Final polygon coordinates:", JSON.stringify(currentPolygon.map(p => ({ x: p.x, y: p.y }))));
+    currentPolygon = [];
+    creatorGraphics.clear();
+  }
+});
+
+// Resize hitArea when window resizes
+window.addEventListener("resize", () => {
+  app.stage.hitArea = new PIXI.Rectangle(0, 0, app.renderer.width, app.renderer.height);
+});
+
+</script>
+</body>
+</html>
