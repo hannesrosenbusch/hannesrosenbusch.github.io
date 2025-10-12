@@ -39,8 +39,11 @@
 
         // --- Load background ---
         const bgTexture = await PIXI.Assets.load("https://raw.githubusercontent.com/hannesrosenbusch/hannesrosenbusch.github.io/refs/heads/master/assets/images/bg.jpeg");
+        const bgTexturePullOutBook = await PIXI.Assets.load("https://raw.githubusercontent.com/hannesrosenbusch/hannesrosenbusch.github.io/refs/heads/master/assets/images/bg_pull_out_book.jpg");
         const bgSprite = new PIXI.Sprite(bgTexture);
+        const bgPullOutBookSprite = new PIXI.Sprite(bgTexturePullOutBook);
         app.stage.addChild(bgSprite);
+        app.stage.addChild(bgTexturePullOutBook);
 
         // --- Keep aspect ratio (cover) ---
         function resizeBackground() {
@@ -50,6 +53,11 @@
             const imageH = bgTexture.height;
 
             const scale = Math.max(screenW / imageW, screenH / imageH);
+            transformSprite(bgSprite, imageW, imageH, scale)
+            transformSprite(bgPullOutBookSprite, imageW, imageH, scale)
+        }
+
+        function transformSprite(sprite, imageW, imageH, scale) {
             bgSprite.width = imageW * scale;
             bgSprite.height = imageH * scale;
             bgSprite.x = (screenW - bgSprite.width) / 2;
@@ -83,8 +91,16 @@
             g.eventMode = "static";
             g.cursor = "pointer";
 
-            g.on("pointerover", () => drawPolygon(hoverColor, 0.3));
-            g.on("pointerout", () => drawPolygon(nonHoverColor, 0.25));
+            g.on("pointerover", () => {
+                drawPolygon(hoverColor, 0.3);
+                bgSprite.visible = false;
+                bgPullOutBookSprite.visible = true;
+            });
+            g.on("pointerout", () => {
+                bgSprite.visible = false;
+                bgPullOutBookSprite.visible = true;
+                drawPolygon(nonHoverColor, 0.25)
+            });
 
             app.stage.addChild(g);
             polygonGraphics.push({ g, points });
