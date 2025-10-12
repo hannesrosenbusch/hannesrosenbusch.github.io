@@ -39,29 +39,29 @@
 
         // --- Load background ---
         const bgTexture = await PIXI.Assets.load("https://raw.githubusercontent.com/hannesrosenbusch/hannesrosenbusch.github.io/refs/heads/master/assets/images/bg.jpeg");
-        const bgTexturePullOutBook = await PIXI.Assets.load("https://raw.githubusercontent.com/hannesrosenbusch/hannesrosenbusch.github.io/refs/heads/master/assets/images/bg_pull_out_book.jpg");
+        const bgTexturePullOutBook = await PIXI.Assets.load("https://raw.githubusercontent.com/hannesrosenbusch/hannesrosenbusch.github.io/refs/heads/hover_highlight/assets/images/bg_pull_out_book.jpg");
         const bgSprite = new PIXI.Sprite(bgTexture);
         const bgPullOutBookSprite = new PIXI.Sprite(bgTexturePullOutBook);
         app.stage.addChild(bgSprite);
-        app.stage.addChild(bgTexturePullOutBook);
+        app.stage.addChild(bgPullOutBookSprite);
 
         // --- Keep aspect ratio (cover) ---
         function resizeBackground() {
             const screenW = app.renderer.width;
             const screenH = app.renderer.height;
-            const imageW = bgTexture.width;
-            const imageH = bgTexture.height;
 
-            const scale = Math.max(screenW / imageW, screenH / imageH);
-            transformSprite(bgSprite, imageW, imageH, scale)
-            transformSprite(bgPullOutBookSprite, imageW, imageH, scale)
+            transformSprite(bgSprite, bgTexture, screenW, screenH)
+            transformSprite(bgPullOutBookSprite, bgTexturePullOutBook, screenW, screenH)
         }
 
-        function transformSprite(sprite, imageW, imageH, scale) {
-            bgSprite.width = imageW * scale;
-            bgSprite.height = imageH * scale;
-            bgSprite.x = (screenW - bgSprite.width) / 2;
-            bgSprite.y = (screenH - bgSprite.height) / 2;
+        function transformSprite(sprite, texture, screenW, screenH) {
+            const imageW = texture.width;
+            const imageH = texture.height;
+            const scale = Math.max(screenW / imageW, screenH / imageH);
+            sprite.width = imageW * scale;
+            sprite.height = imageH * scale;
+            sprite.x = (screenW - sprite.width) / 2;
+            sprite.y = (screenH - sprite.height) / 2;
         }
 
         // --- Define hoverable polygons (image-space coordinates) ---
@@ -97,8 +97,8 @@
                 bgPullOutBookSprite.visible = true;
             });
             g.on("pointerout", () => {
-                bgSprite.visible = false;
-                bgPullOutBookSprite.visible = true;
+                bgSprite.visible = true;
+                bgPullOutBookSprite.visible = false;
                 drawPolygon(nonHoverColor, 0.25)
             });
 
