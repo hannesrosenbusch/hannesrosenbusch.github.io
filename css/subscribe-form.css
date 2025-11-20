@@ -96,3 +96,10 @@
         padding: 1.25rem 1rem;
     }
 }
+
+/* Make subscribe bar non-blocking on mobile: switch from fixed to static layout */
+@media (max-width: 768px) {
+    .subscribe-section {
+        position: static;
+    }
+}
