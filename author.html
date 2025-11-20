@@ -93,6 +93,18 @@
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
         }
         
+        .thank-you-message {
+            margin-top: 1rem;
+            color: #4CAF50;
+            font-weight: bold;
+            opacity: 0;
+            transition: opacity 0.3s ease-in;
+        }
+        
+        .thank-you-message.show {
+            opacity: 1;
+        }
+        
         @media (max-width: 768px) {
             body {
                 background-image: url('assets/images/bg mobile.jpeg');
@@ -119,19 +131,28 @@
                 <input type="email" name="email" placeholder="Enter your email" required />
                 <button type="submit">Yes, please.</button>
             </form>
+            <div id="thank-you-message" class="thank-you-message">Thank you!</div>
         </div>
     </div>
 
 <script>
 const form = document.getElementById('subscribe-form');
+const thankYouMessage = document.getElementById('thank-you-message');
+
 form.addEventListener('submit', e => {
-  e.preventDefault();  // don’t reload the page
+  e.preventDefault();
   const data = new FormData(form);
+  
+  // Show message immediately
+  form.reset();
+  thankYouMessage.classList.add('show');
+  setTimeout(() => {
+    thankYouMessage.classList.remove('show');
+  }, 3000);
+  
+  // Send to backend (but don't wait for it)
   fetch('https://script.google.com/macros/s/AKfycbxfbllNgSMKZZ-d_NroRMnDdsT87Oau_WFKzQPPr7f287RVz8udiXxQ0QFQVVb_ANBtRQ/exec', { method: 'POST', body: data })
-    .then(res => {
-      console.log('Submitted', res);
-      form.reset();  // clear the form
-    })
+    .then(res => console.log('Submitted', res))
     .catch(err => console.error('Error sending form', err));
 });
 </script>
