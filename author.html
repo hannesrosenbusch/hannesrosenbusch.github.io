@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Hannes Rosenbusch writes in the genres speculative fiction, dark academia, and satire. Author of Campus and Dormitory - dark, humorous novels about university life and near-death experiences.">
     <title>Hannes Rosenbusch - Psychological Fiction Author</title>
+    <link rel="stylesheet" href="css/subscribe-form.css">
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -110,15 +111,38 @@
             Hannes Rosenbusch lurks in the cafés and libraries of Amsterdam, writing obscure books about the afterlife. Occasionally, he stalks the basement labs of the local university, conducting questionable experiments on poor undergrads.<br>He lives in his own world. He mumbles funny things in a German accent. He walks up and down the stairs of the psychology building.
         </p>
     </div>
-    
-    <div class="email-link">
-        <a href="email-updates.html">Get book notifications</a>
+
+    <div class="subscribe-section">
+        <div class="subscribe-container">
+            <p>Get book updates from Hannes?</p>
+            <form id="subscribe-form">
+                <input type="email" name="email" placeholder="Enter your email" required />
+                <button type="submit">Yes, please.</button>
+            </form>
+        </div>
     </div>
+
+<script>
+const form = document.getElementById('subscribe-form');
+form.addEventListener('submit', e => {
+  e.preventDefault();  // don’t reload the page
+  const data = new FormData(form);
+  fetch('https://script.google.com/macros/s/AKfycbxfbllNgSMKZZ-d_NroRMnDdsT87Oau_WFKzQPPr7f287RVz8udiXxQ0QFQVVb_ANBtRQ/exec', { method: 'POST', body: data })
+    .then(res => {
+      console.log('Submitted', res);
+      form.reset();  // clear the form
+    })
+    .catch(err => console.error('Error sending form', err));
+});
+</script>
     
     <script>
         window.addEventListener('load', function() {
             document.body.classList.add('loaded');
         });
     </script>
+
+
+
 </body>
 </html>

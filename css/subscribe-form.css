@@ -1,0 +1,98 @@
+.subscribe-section {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(30, 20, 15, 0.95), rgba(40, 30, 25, 0.9));
+    padding: 1.5rem 2rem;
+    border-top: 2px solid rgba(139, 115, 85, 0.5);
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.4);
+    z-index: 99;
+}
+
+.subscribe-container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.subscribe-container h3 {
+    margin: 0 0 0.5rem 0;
+    color: #d4c5b0;
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.subscribe-container p {
+    margin: 0 0 1rem 0;
+    color: #b8a897;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+#subscribe-form {
+    display: flex;
+    gap: 0.5rem;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+#subscribe-form input[type="email"] {
+    flex: 1;
+    padding: 0.75rem 1rem;
+    border: 1px solid rgba(139, 115, 85, 0.4);
+    background: rgba(20, 15, 10, 0.6);
+    color: #e8dcc8;
+    border-radius: 4px;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+#subscribe-form input[type="email"]:focus {
+    border-color: #8b7355;
+    background: rgba(20, 15, 10, 0.8);
+    box-shadow: 0 0 0 3px rgba(139, 115, 85, 0.2);
+}
+
+#subscribe-form input[type="email"]::placeholder {
+    color: rgba(232, 220, 200, 0.5);
+}
+
+#subscribe-form button {
+    padding: 0.75rem 1.75rem;
+    background: linear-gradient(135deg, #6b5742, #8b7355);
+    color: #fff;
+    border: 1px solid rgba(139, 115, 85, 0.6);
+    border-radius: 4px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+#subscribe-form button:hover {
+    background: linear-gradient(135deg, #8b7355, #a89176);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    transform: translateY(-1px);
+}
+
+#subscribe-form button:active {
+    transform: translateY(0);
+}
+
+@media (max-width: 600px) {
+    #subscribe-form {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+    
+    .subscribe-section {
+        padding: 1.25rem 1rem;
+    }
+}
