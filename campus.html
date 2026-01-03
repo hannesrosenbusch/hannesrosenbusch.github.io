@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Campus by Hannes Rosenbusch - A psychological fiction novel about a student's near-death experience at a Dutch university and his journey into parapsychology research.">
+    <meta name="description"
+        content="Campus by Hannes Rosenbusch - A psychological fiction novel about a student's near-death experience at a Dutch university and his journey into parapsychology research.">
     <title>Campus - Psychological Fiction Novel by Hannes Rosenbusch</title>
     <link rel="stylesheet" href="css/subscribe-form.css">
     <style>
@@ -21,11 +23,11 @@
             opacity: 0;
             transition: opacity 0.3s ease-in;
         }
-        
+
         body.loaded {
             opacity: 1;
         }
-        
+
         h1 {
             text-align: center;
             color: #fff;
@@ -33,14 +35,14 @@
             margin-top: 4rem;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
         }
-        
+
         nav {
             position: fixed;
             top: 1rem;
             left: 1rem;
             z-index: 100;
         }
-        
+
         nav a {
             color: #fff;
             text-decoration: none;
@@ -50,26 +52,26 @@
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
             text-shadow: none;
         }
-        
+
         nav a:hover {
             text-decoration: none;
             background: rgba(0, 0, 0, 0.9);
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
         }
-        
+
         .description-box {
             max-width: 700px;
             margin: 2rem auto;
             padding: 1.5rem 2rem;
             background: rgba(64, 64, 64, 0.85);
             border-radius: 12px;
-            box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
             font-size: 1.1rem;
             color: white;
             line-height: 1.7;
             text-align: center;
         }
-        
+
         button {
             background: #495057;
             color: white;
@@ -80,18 +82,18 @@
             cursor: pointer;
             transition: background-color 0.2s;
         }
-        
+
         button:hover {
             background: #343a40;
         }
-        
+
         .email-link {
             position: fixed;
             bottom: 2rem;
             right: 2rem;
             z-index: 100;
         }
-        
+
         .email-link a {
             display: inline-block;
             background: #495057;
@@ -104,11 +106,11 @@
             font-size: 0.85rem;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
         }
-        
+
         .email-link a:hover {
             background: #343a40;
         }
-        
+
         .thank-you-message {
             margin-top: 1rem;
             color: #4CAF50;
@@ -116,11 +118,11 @@
             opacity: 0;
             transition: opacity 0.3s ease-in;
         }
-        
+
         .thank-you-message.show {
             opacity: 1;
         }
-        
+
         @media (max-width: 768px) {
             body {
                 background-image: url('assets/images/lab window mobile.jpeg');
@@ -128,19 +130,23 @@
         }
     </style>
 </head>
+
 <body>
     <h1>Campus</h1>
     <nav>
         <a href="books.html">← Books</a>
     </nav>
     <div class="description-box">
-    Listen to <i>Campus</i>—an old, neurotic spirit inhabiting the buildings and gardens of Kleinburg University. Growing infatuated with a student named Kasimir, Campus enables the young man’s obsession with paranormal psychology—with dire consequences. Watching Kasimir’s corpse being carried out of the laboratory, Campus addresses his beloved student one last time, reminiscing about their time together, always wondering where things went wrong.    </div>
-    
+        Listen to <i>Campus</i>—a neurotic spirit inhabiting the buildings and gardens of Kleinburg University. Campus
+        has spent centuries judging and manipulating its students until Kasimir Schneider, a prospective undergraduate,
+        gets rejected by Kleinburg's admissions committee. The infuriated Campus decides to support Kasimir in his unwavering pursuit, thereby fueling the young man's obsession with the afterlife and paranormal psychology. 
+        The duo's mutual incitement results in a fatal accident in Kleinburg's underground laboratories. As paramedics carry Kasimir’s corpse across the moonlit lawns, the melancholic Campus addresses its protégé one last time, reminiscing about their time together, always wondering where things went wrong. </div>
+
     <!-- <div class="email-link">
         <a href="email-updates.html">Alert me on release day</a>
     </div> -->
 
-      <div class="subscribe-section">
+    <div class="subscribe-section">
         <div class="subscribe-container">
             <form id="subscribe-form">
                 <input type="email" name="email" placeholder="Enter your email" required />
@@ -150,32 +156,33 @@
         </div>
     </div>
 
-<script>
-const form = document.getElementById('subscribe-form');
-const thankYouMessage = document.getElementById('thank-you-message');
-
-form.addEventListener('submit', e => {
-  e.preventDefault();
-  const data = new FormData(form);
-  
-  // Show message immediately
-  form.reset();
-  thankYouMessage.classList.add('show');
-  setTimeout(() => {
-    thankYouMessage.classList.remove('show');
-  }, 3000);
-  
-  // Send to backend (but don't wait for it)
-  fetch('https://script.google.com/macros/s/AKfycbxfbllNgSMKZZ-d_NroRMnDdsT87Oau_WFKzQPPr7f287RVz8udiXxQ0QFQVVb_ANBtRQ/exec', { method: 'POST', body: data })
-    .then(res => console.log('Submitted', res))
-    .catch(err => console.error('Error sending form', err));
-});
-</script>
-    
     <script>
-        window.addEventListener('load', function() {
+        const form = document.getElementById('subscribe-form');
+        const thankYouMessage = document.getElementById('thank-you-message');
+
+        form.addEventListener('submit', e => {
+            e.preventDefault();
+            const data = new FormData(form);
+
+            // Show message immediately
+            form.reset();
+            thankYouMessage.classList.add('show');
+            setTimeout(() => {
+                thankYouMessage.classList.remove('show');
+            }, 3000);
+
+            // Send to backend (but don't wait for it)
+            fetch('https://script.google.com/macros/s/AKfycbxfbllNgSMKZZ-d_NroRMnDdsT87Oau_WFKzQPPr7f287RVz8udiXxQ0QFQVVb_ANBtRQ/exec', { method: 'POST', body: data })
+                .then(res => console.log('Submitted', res))
+                .catch(err => console.error('Error sending form', err));
+        });
+    </script>
+
+    <script>
+        window.addEventListener('load', function () {
             document.body.classList.add('loaded');
         });
     </script>
 </body>
+
 </html>
