@@ -199,7 +199,7 @@
                 `;
                 
                 // Hide posts beyond the first 4
-                if (index >= 4) {
+                if (index >= 5) {
                     li.classList.add('hidden-posts');
                 }
                 
@@ -207,7 +207,7 @@
             });
             
             // Hide the "Older Posts" button if there are 4 or fewer posts
-            if (parsedPosts.length <= 4) {
+            if (parsedPosts.length <= 5) {
                 document.getElementById('older-posts-btn').style.display = 'none';
             }
         }
