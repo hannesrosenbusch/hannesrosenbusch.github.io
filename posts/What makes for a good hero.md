@@ -6,7 +6,7 @@ Two alleged predictors are the character's warmth (i.e., friendliness) and their
 
 Thus, I used my new python package (see previous blog post) to annotate the behaviors of characters in 2000+ movies, to score how warm and competent they appear and also collected the IMDB ratings:
 
-<img src="assets/blog_images/warmth competence annotate.png">
+<img src="assets/blog_images/warmth competence annotate.png" width="50%">
 
 
 Next, I correlated the personality traits of the protagonists to the audience ratings and, in line with previous theories, movie ratings were higher for warm/competent protagonists.

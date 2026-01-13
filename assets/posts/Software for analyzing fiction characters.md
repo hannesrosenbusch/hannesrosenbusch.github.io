@@ -6,7 +6,7 @@ Unfortunately, researchers have to annotate a LOT of texts to get reliable resul
 
 I demonstrated the new software (a python package called LLM_annotate) by scoring personality traits of the Pride and Prejudice characters:
 
-<img src="assets/blog_images/pride and pred package.png">
+<img src=assets/blog_images/pride and pred package.png" width="600">
 
 
 If you're interested in the software, or you want to see AI annotations for The Simpsons, please check out this [preprint](https://arxiv.org/abs/2601.03274)
