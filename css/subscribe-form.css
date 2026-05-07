@@ -16,6 +16,40 @@
     text-align: center;
 }
 
+.subscribe-section-cta {
+    padding: 1rem 2rem;
+}
+
+.subscribe-container-cta {
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe-trigger {
+    padding: 0.85rem 2.5rem;
+    background: linear-gradient(135deg, #6b5742, #8b7355);
+    color: #fff;
+    border: 1px solid rgba(139, 115, 85, 0.6);
+    border-radius: 999px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.subscribe-trigger:hover {
+    background: linear-gradient(135deg, #8b7355, #a89176);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    transform: translateY(-1px);
+}
+
+.subscribe-trigger:active {
+    transform: translateY(0);
+}
+
 .subscribe-container h3 {
     margin: 0 0 0.5rem 0;
     color: #d4c5b0;
@@ -86,6 +120,63 @@
     transform: translateY(0);
 }
 
+.subscribe-modal {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+    z-index: 1000;
+}
+
+.subscribe-modal.is-open {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.subscribe-modal__backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(15, 10, 8, 0.7);
+    backdrop-filter: blur(2px);
+}
+
+.subscribe-modal__dialog {
+    position: relative;
+    width: min(100%, 560px);
+    background: linear-gradient(to top, rgba(30, 20, 15, 0.97), rgba(40, 30, 25, 0.94));
+    border: 1px solid rgba(139, 115, 85, 0.45);
+    border-radius: 16px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.45);
+    padding: 2.5rem 2rem 2rem;
+}
+
+.subscribe-modal__close {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    border: 0;
+    background: transparent;
+    color: #d4c5b0;
+    font-size: 1.75rem;
+    line-height: 1;
+    cursor: pointer;
+    padding: 0.25rem 0.5rem;
+}
+
+.subscribe-modal__close:hover {
+    color: #fff;
+    background: transparent;
+}
+
+.subscribe-container-modal {
+    max-width: 100%;
+}
+
 @media (max-width: 600px) {
     #subscribe-form {
         flex-direction: column;
@@ -94,6 +185,18 @@
     
     .subscribe-section {
         padding: 1.25rem 1rem;
+    }
+
+    .subscribe-modal {
+        padding: 1rem;
+    }
+
+    .subscribe-modal__dialog {
+        padding: 2.5rem 1rem 1.5rem;
+    }
+
+    .subscribe-trigger {
+        width: 100%;
     }
 }
 
