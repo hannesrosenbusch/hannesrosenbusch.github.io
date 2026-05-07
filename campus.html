@@ -154,37 +154,28 @@
         <a href="email-updates.html">Alert me on release day</a>
     </div> -->
 
-    <div class="subscribe-section">
-        <div class="subscribe-container">
-            <form id="subscribe-form">
-                <input type="email" name="email" placeholder="Enter your email" required />
-                <button type="submit">Alert me about publication.</button>
-            </form>
-            <div id="thank-you-message" class="thank-you-message">Thank you!</div>
+    <div class="subscribe-section subscribe-section-cta">
+        <div class="subscribe-container subscribe-container-cta">
+            <button type="button" class="subscribe-trigger" data-modal-target="campus-subscribe-modal">Get the book</button>
         </div>
     </div>
 
-    <script>
-        const form = document.getElementById('subscribe-form');
-        const thankYouMessage = document.getElementById('thank-you-message');
+    <div id="campus-subscribe-modal" class="subscribe-modal" aria-hidden="true">
+        <div class="subscribe-modal__backdrop" data-modal-close></div>
+        <div class="subscribe-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="campus-subscribe-title">
+            <button type="button" class="subscribe-modal__close" aria-label="Close alert form" data-modal-close>&times;</button>
+            <div class="subscribe-container subscribe-container-modal">
+                <h3 id="campus-subscribe-title">Get an alert on publication day</h3>
+                <form id="subscribe-form" data-subscribe-form>
+                    <input type="email" name="email" placeholder="Enter your email" required />
+                    <button type="submit">Submit</button>
+                </form>
+                <div id="thank-you-message" class="thank-you-message">Thank you!</div>
+            </div>
+        </div>
+    </div>
 
-        form.addEventListener('submit', e => {
-            e.preventDefault();
-            const data = new FormData(form);
-
-            // Show message immediately
-            form.reset();
-            thankYouMessage.classList.add('show');
-            setTimeout(() => {
-                thankYouMessage.classList.remove('show');
-            }, 3000);
-
-            // Send to backend (but don't wait for it)
-            fetch('https://script.google.com/macros/s/AKfycbxfbllNgSMKZZ-d_NroRMnDdsT87Oau_WFKzQPPr7f287RVz8udiXxQ0QFQVVb_ANBtRQ/exec', { method: 'POST', body: data })
-                .then(res => console.log('Submitted', res))
-                .catch(err => console.error('Error sending form', err));
-        });
-    </script>
+    <script src="js/modal.js"></script>
 
     <script>
         window.addEventListener('load', function () {
