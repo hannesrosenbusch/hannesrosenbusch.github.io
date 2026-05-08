@@ -42,9 +42,8 @@
         });
 
         const form = modal.querySelector('[data-subscribe-form]');
-        const thankYouMessage = modal.querySelector('.thank-you-message');
 
-        if (!form || !thankYouMessage) {
+        if (!form) {
             return;
         }
 
@@ -53,12 +52,7 @@
             const data = new FormData(form);
 
             form.reset();
-            thankYouMessage.classList.add('show');
-
-            window.setTimeout(() => {
-                thankYouMessage.classList.remove('show');
-                closeModal(modal);
-            }, 3000);
+            closeModal(modal);
 
             fetch(endpoint, { method: 'POST', body: data })
                 .then(response => console.log('Submitted', response))
