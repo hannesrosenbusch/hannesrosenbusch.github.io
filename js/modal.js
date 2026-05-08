@@ -17,6 +17,8 @@
         if (thankYouMessage) {
             thankYouMessage.classList.remove('show');
         }
+
+        modal.classList.remove('is-thanking');
     }
 
     function closeModal(modal) {
@@ -56,6 +58,10 @@
     document.querySelectorAll('.subscribe-modal').forEach(modal => {
         modal.querySelectorAll('[data-modal-close]').forEach(element => {
             element.addEventListener('click', () => {
+                if (modal.classList.contains('is-thanking')) {
+                    return;
+                }
+
                 closeModal(modal);
             });
         });
@@ -80,6 +86,7 @@
 
             if (thankYouMessage) {
                 form.style.display = 'none';
+                modal.classList.add('is-thanking');
                 thankYouMessage.classList.add('show');
 
                 closeTimer = window.setTimeout(() => {
@@ -97,7 +104,7 @@
     });
 
     document.addEventListener('keydown', event => {
-        if (event.key === 'Escape' && activeModal) {
+        if (event.key === 'Escape' && activeModal && !activeModal.classList.contains('is-thanking')) {
             closeModal(activeModal);
         }
     });

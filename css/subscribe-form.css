@@ -173,6 +173,10 @@
     background: transparent;
 }
 
+.subscribe-modal.is-thanking .subscribe-modal__close {
+    display: none;
+}
+
 .subscribe-container-modal {
     max-width: 100%;
 }
