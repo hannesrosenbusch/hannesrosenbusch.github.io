@@ -15,7 +15,10 @@
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
+            background-attachment: fixed;
             min-height: 100vh;
+            display: flex;
+            flex-direction: column;
             opacity: 0;
             transition: opacity 0.3s ease-in;
         }
@@ -76,12 +79,9 @@
         }
         
         .blog-button {
-            position: fixed;
-            bottom: 2rem;
-            left: 50%;
-            transform: translateX(-50%);
-            z-index: 100;
+            margin-top: auto;
             text-align: center;
+            padding-top: 2rem;
         }
         
         .blog-button a {
@@ -102,9 +102,9 @@
         }
 
         .cover-credit {
-            position: fixed;
-            bottom: 10px;
-            right: 10px;
+            align-self: flex-end;
+            margin-top: 1rem;
+            margin-right: 0;
             background: rgba(0, 0, 0, 0.5);
             color: rgba(255, 255, 255, 0.7);
             padding: 8px 12px;
@@ -113,7 +113,6 @@
             font-family: Arial, sans-serif;
             line-height: 1.4;
             text-align: right;
-            z-index: 100;
         }
         
         nav {
