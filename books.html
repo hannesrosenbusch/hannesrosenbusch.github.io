@@ -78,8 +78,10 @@
         .blog-button {
             position: fixed;
             bottom: 2rem;
-            right: 2rem;
+            left: 50%;
+            transform: translateX(-50%);
             z-index: 100;
+            text-align: center;
         }
         
         .blog-button a {
@@ -97,6 +99,21 @@
         
         .blog-button a:hover {
             background: #343a40;
+        }
+
+        .cover-credit {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            background: rgba(0, 0, 0, 0.5);
+            color: rgba(255, 255, 255, 0.7);
+            padding: 8px 12px;
+            border-radius: 5px;
+            font-size: 0.7rem;
+            font-family: Arial, sans-serif;
+            line-height: 1.4;
+            text-align: right;
+            z-index: 100;
         }
         
         nav {
@@ -192,6 +209,8 @@
     <div class="blog-button">
         <a href="academic-blog.html">Academic blog</a>
     </div>
+
+    <div class="cover-credit">Cover art: Martina Francone</div>
     
     <script>
         window.addEventListener('load', function() {
