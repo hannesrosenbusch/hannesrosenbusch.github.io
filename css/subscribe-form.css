@@ -185,6 +185,69 @@
     padding-right: 2rem;
 }
 
+.buy-links {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    margin-top: 1rem;
+}
+
+.buy-links__column {
+    flex: 1;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.85rem;
+}
+
+.buy-links__column h4 {
+    margin: 0 0 0.25rem 0;
+    color: #d4c5b0;
+    font-size: 0.85rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.buy-links__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    background: #ffffff;
+    border: 1px solid rgba(139, 115, 85, 0.4);
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+.buy-links__logo:hover {
+    background: #f2f2f2;
+    border-color: #8b7355;
+    transform: translateY(-1px);
+}
+
+.buy-links__logo img {
+    max-width: 100%;
+    max-height: 32px;
+    object-fit: contain;
+}
+
+.buy-links__note {
+    margin: 0.25rem 0 0 0;
+    color: #b8a897;
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+@media (max-width: 600px) {
+    .buy-links {
+        gap: 1.25rem;
+    }
+}
+
 @media (max-width: 600px) {
     .subscribe-container-modal h3 {
         font-size: 0.98rem;
