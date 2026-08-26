@@ -221,6 +221,7 @@
     border: 1px solid rgba(139, 115, 85, 0.4);
     border-radius: 6px;
     transition: all 0.2s ease;
+    cursor: pointer;
 }
 
 .buy-links__logo:hover {
@@ -233,6 +234,51 @@
     max-width: 100%;
     max-height: 32px;
     object-fit: contain;
+}
+
+.buy-links__amazon-button {
+    font: inherit;
+    color: inherit;
+}
+
+.country-store-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.75rem;
+    margin-top: 1rem;
+    max-height: 340px;
+    overflow-y: auto;
+    padding-right: 0.25rem;
+}
+
+.store-item {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    width: 100%;
+    padding: 0.7rem 0.8rem;
+    border: 1px solid rgba(139, 115, 85, 0.45);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.05);
+    color: #f1e9df;
+    font-size: 0.9rem;
+    text-align: left;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.store-item:hover {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(139, 115, 85, 0.8);
+    transform: translateY(-1px);
+}
+
+.store-item__flag {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 1.5rem;
+    font-size: 1.1rem;
 }
 
 .buy-links__note {

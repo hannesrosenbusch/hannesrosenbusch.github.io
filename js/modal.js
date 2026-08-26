@@ -48,6 +48,85 @@
         }
     }
 
+    function countryFlagForName(countryName) {
+        const flagMap = {
+            Australia: '🇦🇺',
+            Brazil: '🇧🇷',
+            Canada: '🇨🇦',
+            France: '🇫🇷',
+            Germany: '🇩🇪',
+            India: '🇮🇳',
+            Italy: '🇮🇹',
+            Japan: '🇯🇵',
+            Mexico: '🇲🇽',
+            Netherlands: '🇳🇱',
+            Spain: '🇪🇸',
+            'United Kingdom': '🇬🇧',
+            'United States': '🇺🇸',
+            Other: '🌍'
+        };
+
+        return flagMap[countryName] || '🌍';
+    }
+
+    function populateAmazonCountryList() {
+        const list = document.getElementById('campus-amazon-country-list');
+        if (!list) {
+            return;
+        }
+
+        fetch('amazon_links.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Unable to load Amazon links');
+                }
+
+                return response.json();
+            })
+            .then(data => {
+                const links = data.Campus || {};
+                const countries = Object.entries(links)
+                    .filter(([country, url]) => country && country !== 'Other' && url && url.trim())
+                    .sort(([countryA], [countryB]) => countryA.localeCompare(countryB));
+
+                if (!countries.length) {
+                    list.innerHTML = '<p class="buy-links__note">Amazon store list unavailable.</p>';
+                    return;
+                }
+
+                list.innerHTML = countries.map(([country, url]) => `
+                    <button type="button" class="store-item" data-country-url="${url}">
+                        <span class="store-item__flag">${countryFlagForName(country)}</span>
+                        <span>${country}</span>
+                    </button>
+                `).join('');
+            })
+            .catch(() => {
+                list.innerHTML = '<p class="buy-links__note">Amazon store list unavailable.</p>';
+            });
+    }
+
+    populateAmazonCountryList();
+
+    document.addEventListener('click', event => {
+        const countryButton = event.target.closest('[data-country-url]');
+        if (!countryButton) {
+            return;
+        }
+
+        const url = countryButton.getAttribute('data-country-url');
+        if (!url) {
+            return;
+        }
+
+        window.open(url, '_blank', 'noopener,noreferrer');
+
+        const modal = countryButton.closest('.subscribe-modal');
+        if (modal) {
+            closeModal(modal);
+        }
+    });
+
     document.querySelectorAll('[data-modal-target]').forEach(trigger => {
         trigger.addEventListener('click', () => {
             const modalId = trigger.getAttribute('data-modal-target');

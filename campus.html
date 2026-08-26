@@ -167,9 +167,9 @@ Hopelessly enamoured, the campus spirit stalks his new protégé, judging and st
                 <div class="buy-links">
                     <div class="buy-links__column">
                         <h4>Paperback / Ebook</h4>
-                        <a href="https://amzn.eu/d/0hJ9nqSt" target="_blank" rel="noopener noreferrer" class="buy-links__logo">
+                        <button type="button" class="buy-links__logo buy-links__amazon-button" data-modal-target="campus-amazon-country-modal">
                             <img src="assets/images/amazon-logo.png" alt="Amazon">
-                        </a>
+                        </button>
                     </div>
                     <div class="buy-links__column">
                         <h4>Audiobook</h4>
@@ -191,6 +191,17 @@ Hopelessly enamoured, the campus spirit stalks his new protégé, judging and st
                         <p class="buy-links__note">...and many other places</p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="campus-amazon-country-modal" class="subscribe-modal" aria-hidden="true">
+        <div class="subscribe-modal__backdrop" data-modal-close></div>
+        <div class="subscribe-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="campus-amazon-country-title">
+            <button type="button" class="subscribe-modal__close" aria-label="Close" data-modal-close>&times;</button>
+            <div class="subscribe-container subscribe-container-modal">
+                <h3 id="campus-amazon-country-title">Choose your Amazon store</h3>
+                <div id="campus-amazon-country-list" class="country-store-list"></div>
             </div>
         </div>
     </div>
