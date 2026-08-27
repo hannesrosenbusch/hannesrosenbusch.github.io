@@ -60,6 +60,7 @@
             Japan: '🇯🇵',
             Mexico: '🇲🇽',
             Netherlands: '🇳🇱',
+            Poland: '🇵🇱',
             Spain: '🇪🇸',
             'United Kingdom': '🇬🇧',
             'United States': '🇺🇸',
@@ -86,8 +87,16 @@
             .then(data => {
                 const links = data.Campus || {};
                 const countries = Object.entries(links)
-                    .filter(([country, url]) => country && country !== 'Other' && url && url.trim())
-                    .sort(([countryA], [countryB]) => countryA.localeCompare(countryB));
+                    .filter(([country, url]) => country && url && url.trim())
+                    .sort(([countryA], [countryB]) => {
+                        if (countryA === 'Other') {
+                            return 1;
+                        }
+                        if (countryB === 'Other') {
+                            return -1;
+                        }
+                        return countryA.localeCompare(countryB);
+                    });
 
                 if (!countries.length) {
                     list.innerHTML = '<p class="buy-links__note">Amazon store list unavailable.</p>';
