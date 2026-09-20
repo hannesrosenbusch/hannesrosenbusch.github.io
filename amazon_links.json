@@ -1,5 +1,5 @@
 {
-    "Campus": {
+        "Campus": {
         "Australia": "https://www.amazon.com.au/dp/B0HGHFLPPW",
         "Brazil": "https://www.amazon.com.br/dp/B0HGHFLPPW",
         "France": "https://www.amazon.fr/dp/B0HGHFLPPW",
@@ -14,5 +14,21 @@
         "United Kingdom": "https://www.amazon.co.uk/dp/B0HGHFLPPW",
         "United States": "https://www.amazon.com/dp/B0HGHFLPPW",
         "Other": "https://www.amazon.com/dp/B0HGHFLPPW"
+    },
+    "Dormitory": {
+        "Australia": "https://www.amazon.com.au/dp/B0HJFHZJ63",
+        "Brazil": "https://www.amazon.com.br/dp/B0HJFHZJ63",
+        "France": "https://www.amazon.fr/dp/B0HJFHZJ63",
+        "Germany": "https://www.amazon.de/dp/B0HJFHZJ63",
+        "India": "https://www.amazon.in/dp/B0HJFHZJ63",
+        "Italy": "https://www.amazon.it/dp/B0HJFHZJ63",
+        "Japan": "https://www.amazon.co.jp/dp/B0HJFHZJ63",
+        "Mexico": "https://www.amazon.com.mx/dp/B0HJFHZJ63",
+        "Netherlands": "https://www.amazon.nl/dp/B0HJFHZJ63",
+        "Poland": "https://www.amazon.pl/dp/B0HJFHZJ63",
+        "Spain": "https://www.amazon.es/dp/B0HJFHZJ63",
+        "United Kingdom": "https://www.amazon.co.uk/dp/B0HJFHZJ63",
+        "United States": "https://www.amazon.com/dp/B0HJFHZJ63",
+        "Other": "https://www.amazon.com/dp/B0HJFHZJ63"
     }
 }

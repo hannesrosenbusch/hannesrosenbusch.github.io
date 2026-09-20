@@ -70,11 +70,13 @@
         return flagMap[countryName] || '🌍';
     }
 
-    function populateAmazonCountryList() {
-        const list = document.getElementById('campus-amazon-country-list');
+    function populateAmazonCountryListForId(listId) {
+        const list = document.getElementById(listId);
         if (!list) {
             return;
         }
+
+        const bookKey = listId.includes('dormitory') ? 'Dormitory' : 'Campus';
 
         fetch('amazon_links.json')
             .then(response => {
@@ -85,7 +87,7 @@
                 return response.json();
             })
             .then(data => {
-                const links = data.Campus || {};
+                const links = data[bookKey] || {};
                 const countries = Object.entries(links)
                     .filter(([country, url]) => country && url && url.trim())
                     .sort(([countryA], [countryB]) => {
@@ -113,6 +115,10 @@
             .catch(() => {
                 list.innerHTML = '<p class="buy-links__note">Amazon store list unavailable.</p>';
             });
+    }
+
+    function populateAmazonCountryList() {
+        ['campus-amazon-country-list', 'dormitory-amazon-country-list'].forEach(populateAmazonCountryListForId);
     }
 
     populateAmazonCountryList();

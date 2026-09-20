@@ -153,21 +153,39 @@
 
     <div class="subscribe-section subscribe-section-cta">
         <div class="subscribe-container subscribe-container-cta">
-            <button type="button" class="subscribe-trigger" data-modal-target="dormitory-subscribe-modal">Read the book</button>
+            <button type="button" class="subscribe-trigger" data-modal-target="dormitory-buy-modal">Get the book</button>
         </div>
     </div>
 
-    <div id="dormitory-subscribe-modal" class="subscribe-modal" aria-hidden="true">
+    <div id="dormitory-buy-modal" class="subscribe-modal" aria-hidden="true">
         <div class="subscribe-modal__backdrop" data-modal-close></div>
-        <div class="subscribe-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="dormitory-subscribe-title">
-            <button type="button" class="subscribe-modal__close" aria-label="Close alert form" data-modal-close>&times;</button>
+        <div class="subscribe-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="dormitory-buy-title">
+            <button type="button" class="subscribe-modal__close" aria-label="Close" data-modal-close>&times;</button>
             <div class="subscribe-container subscribe-container-modal">
-                <h3 id="dormitory-subscribe-title">Alert me on publication day</h3>
-                <form id="subscribe-form" data-subscribe-form>
-                    <input type="email" name="email" placeholder="Enter your email" required />
-                    <button type="submit">Submit</button>
-                </form>
-                <div id="thank-you-message" class="thank-you-message">Thank you!</div>
+                <h3 id="dormitory-buy-title">Get the book</h3>
+                <div class="buy-links">
+                    <div class="buy-links__column">
+                        <h4>Paperback / Ebook</h4>
+                        <button type="button" class="buy-links__logo buy-links__amazon-button" data-modal-target="dormitory-amazon-country-modal">
+                            <img src="assets/images/amazon-logo.png" alt="Amazon">
+                        </button>
+                    </div>
+                    <div class="buy-links__column">
+                        <h4>Audiobook</h4>
+                        <p class="buy-links__note">Currently in production</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="dormitory-amazon-country-modal" class="subscribe-modal" aria-hidden="true">
+        <div class="subscribe-modal__backdrop" data-modal-close></div>
+        <div class="subscribe-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="dormitory-amazon-country-title">
+            <button type="button" class="subscribe-modal__close" aria-label="Close" data-modal-close>&times;</button>
+            <div class="subscribe-container subscribe-container-modal">
+                <h3 id="dormitory-amazon-country-title">Choose your Amazon store</h3>
+                <div id="dormitory-amazon-country-list" class="country-store-list"></div>
             </div>
         </div>
     </div>
